@@ -13,7 +13,7 @@ data <- read_xlsx("data/SIPRI_MillexData.xlsx",sheet = "Share of GDP", range="A6
   select(-`2021.0`)
 
 # Here it is necessary to manually change some country names in "geo_cepii.xlsx" 
-NATO <- read_table("data/NATO_members.txt", col_names=c("Country")) %>%
+NATO <- read.table("data/NATO_members.txt",sep="\t", col.names = c("Country")) %>%
   mutate(NATO = 1)
 country_data <- read_xls("data/geo_cepii.xls") %>%
   select(iso2, iso3, country, continent, city_en)
@@ -29,7 +29,7 @@ final_data <- left_join(tmp_data, NATO, by=c("Country"))%>%
 
 ggplot(final_data, aes(x=dist, y=pct2020, color = NATO))+
   geom_point()+
-  geom_label(label=data_total2$Country, 
+  geom_label(label=final_data$Country, 
              nudge_x = 0.25, nudge_y = 0.25, 
              check_overlap = T)+
   xlab("Distance to Moscow in km")+
