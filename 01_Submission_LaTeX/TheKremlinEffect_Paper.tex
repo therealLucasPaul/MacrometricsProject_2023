@@ -1,20 +1,101 @@
 \documentclass[12pt,a4paper]{article}
+\usepackage[
+	left 	= 3cm,
+	right 	= 3cm, 
+	top 		= 2.5cm,
+	bottom 	= 2.5cm,
+]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+\usepackage[OT1]{fontenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage[round]{natbib}
+
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+	colorlinks = true,
+	urlcolor   = black,
+	linkcolor  = black, 
+	citecolor  = blue, 
+}
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{\slshape Unterweger, Oberbrinkmann \& Lohre}
+\chead{}
+\rhead{\slshape \nouppercase{\leftmark}}
+
+\usepackage{titlesec,xcolor}
+\titleformat{\section}{\bfseries}{\thesection}{0.5em}{}
+\titlespacing{\section}{0pt}{3ex plus 1ex minus 0.2ex}{10pt}
+\setlength{\headheight}{14.49998pt}
+
+%------------------------------------------------------------------%
+
 \author{Lucas Paul Unterweger, Sophia Oberbrinkmann, Fynn Lohre}
 \title{The Kremlin Effect: How Geographical Proximity to Russia Affects Military Spending}
 
-\begin{document}
-\maketitle
-\pagebreak
 
+\begin{document}
+
+\begin{titlepage}
+\center
+\vfill
+\includegraphics[scale=0.08]{WU.png}
+\vfill
+\begin{tabular}[t]{lc}
+Course:  & Advanced Macroeconometrics (Science Track) \\
+Examiner: & 
+Nikolas Kuschnig, MSc (WU) \& Lukas Vashold, MSc (WU) \\
+Submission date: & 31.07.2023 \\
+\end{tabular}
+\vfill
+{\large \textbf{The Kremlin Effect: How Geographical Proximity to Russia Affects Military Spending}}
+\vfill
+by\\ \vspace{3mm}
+{\Large Lucas Unterweger}\\
+(Matr.-Nr. h11913169)\\ \vspace{3mm}
+\& \\ \vspace{3mm}
+{\Large Sophia Oberbrinkmann}\\
+(Matr.-Nr. h12225352)\\ \vspace{3mm}
+\& \\ \vspace{3mm}
+{\Large Fynn Lohre}\\
+(Matr.-Nr. h12232560)\
+\vfill
+
+\thispagestyle{empty}
+\pagebreak
+\end{titlepage}
+\newcounter{savepage}
+\pagenumbering{roman}
+\thispagestyle{plain}
 \tableofcontents
 \pagebreak
-
+\setcounter{savepage}{\arabic{page}}
+\pagenumbering{arabic}
 \section{Introduction}
+\clearpage
 \section{Literature Review}
+\clearpage
 \section{Econometric Framework}
+\clearpage
 \section{Estimation}
+\clearpage
 \section{Results}
+\clearpage
 \section{Discussion}
+\citep{nordhaus2012}
+\clearpage
+
+
+%------------------------------------------------------------------%
+\pagenumbering{roman}
+\setcounter{page}{\thesavepage}
+\pagestyle{plain}
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{apalike}
+\bibliography{TheKremlinEffect.bib}
 \end{document}
