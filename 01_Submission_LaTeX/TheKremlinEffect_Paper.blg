@@ -5,44 +5,44 @@ Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: apalike.bst
 Reallocating 'name_of_file' (item size: 1) to 21 items.
 Database file #1: TheKremlinEffect.bib
-You've used 1 entry,
+You've used 5 entries,
             1935 wiz_defined-function locations,
-            479 strings with 3957 characters,
-and the built_in function-call counts, 450 in all, are:
-= -- 43
-> -- 18
-< -- 0
-+ -- 8
-- -- 6
-* -- 41
-:= -- 81
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 8
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 14
-empty$ -- 31
-format.name$ -- 7
-if$ -- 83
+            508 strings with 4687 characters,
+and the built_in function-call counts, 2018 in all, are:
+= -- 204
+> -- 64
+< -- 4
++ -- 26
+- -- 20
+* -- 179
+:= -- 346
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 35
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 70
+empty$ -- 150
+format.name$ -- 31
+if$ -- 390
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 3
-pop$ -- 6
+missing$ -- 5
+newline$ -- 28
+num.names$ -- 15
+pop$ -- 21
 preamble$ -- 1
-purify$ -- 8
+purify$ -- 35
 quote$ -- 0
-skip$ -- 11
+skip$ -- 55
 stack$ -- 0
-substring$ -- 39
-swap$ -- 1
+substring$ -- 187
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 30
 warning$ -- 0
-while$ -- 4
+while$ -- 19
 width$ -- 0
-write$ -- 15
+write$ -- 67

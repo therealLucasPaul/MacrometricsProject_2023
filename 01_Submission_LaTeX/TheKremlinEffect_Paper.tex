@@ -1,7 +1,7 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage[
-	left 	= 3cm,
-	right 	= 3cm, 
+	left 	= 2.5cm,
+	right 	= 2.5cm, 
 	top 		= 2.5cm,
 	bottom 	= 2.5cm,
 ]{geometry}
@@ -77,9 +77,25 @@ by\\ \vspace{3mm}
 \setcounter{savepage}{\arabic{page}}
 \pagenumbering{arabic}
 \section{Introduction}
-\clearpage
-\section{Literature Review}
-\clearpage
+Our research project delves into the intriguing question of whether the distance of a country's capital to Moscow has a significant impact on its military spending. To tackle this question, we employ a Bayesian regression analysis.
+
+Our research is inspired and built upon the insights provided by two seminal papers: the work of \citet{kofrovn2023} and \citet{nordhaus2012}. \citet{kofrovn2023} focused on the Russo-Ukrainian conflict's impact on the military expenditures of European States. They made a thought-provoking observation, suggesting that physical geography continues to play a pivotal role in shaping military affairs and geopolitics, even in the 21st century. On the other hand, Nordhaus, and his coauthors (\citeyear{nordhaus2012}) investigated how a country's external security environment influences its military spending. Their extensive analysis, covering 165 countries from 1950 to 2000, demonstrated that the prospectively generated estimate of the external threat served as a potent variable in explaining military expenditures. Drawing upon these foundational ideas, our research seeks to utilize the geographical distance to Russia, as highlighted by \citet{kofrovn2023}, as a proxy for external threat, echoing Nordhaus's emphasis. To justify this assumption, we consider the historical background of Russia and the Soviet Union. Given that the NATO was established as a response to the perceived political aggression of the Soviet Union during the Cold War, and it currently comprises 31 member states, it reinforces our belief that Russia is often seen as a potential threat.
+
+While our focus centers on the geographical distance to Russia as an external factor influencing military expenditure, we recognize that numerous other determinants have been extensively analyzed. A plethora of authors have shed light on different potential causes, broadly categorized into external factors (such as military expenditures of potential enemies or allies, and perceived threats) and internal influences, encompassing economic, political, and bureaucratic factors \citep{nikolaidou2008}. The research results across various studies, some conducted on individual countries while others on groups of countries or spanning the entire globe \citep{nikolaidou2008,george2018,nordhaus2012}, have yielded somewhat ambiguous findings \citep{nikolaidou2008,odehnal2020}. 
+Given the relative dearth of studies exploring the specific influence of geographical distance to Russia on military spending \citep{kofrovn2023}, we aim to contribute to the existing literature by focusing on this understudied factor. Our expectation is that a closer distance to Russia would be positively correlated with increased military expenditure by the concerned country. To ensure the comprehensiveness of our analysis, we incorporate other potential influential factors as control variables in our models. 
+
+As part of our investigation, we also consider the NATO member countries, who are expected to allocate 2 \% of their annual GDP to military expenditures uniformly. Any deviation from this standard percentage rate could further strengthen our hypothesis regarding the role of geographical distance to Russia in a country's military spending decision. Furthermore, we expand our analysis beyond NATO members to include non-NATO countries, recognizing that recent events like the Russo-Ukraine conflict highlight Russia's perceived threat by countries worldwide. Our study encompasses a total of 151 countries, offering a comprehensive global perspective. 
+
+To gauge the geographical distance to Russia, we explore various approaches, evaluating how the estimation may be influenced by these different measures. Our primary proxies are the capital distances of countries measured in kilometers, as this offers a relevant metric for military threats. While \citet{kofrovn2023} considered road travel distance and mention the potential of flight travel distance, we prioritize air distance as a more appropriate proxy when examining military threats. 
+In our pursuit of a comprehensive and nuanced analysis, we recognize that relying solely on the distance between capitals might not fully capture the complex dynamics and interactions between countries. Therefore, we go beyond the capital distance and incorporate a second measure — the border degree of a country with Russia — to gain deeper insights into the relationship between geographical proximity and military expenditure decisions. The border degree metric enables us to examine how the presence of a common border with Russia, or even a second-degree border (i.e., sharing a border with a country that shares a border with Russia), may exert distinct influences on a country's military spending compared to the air distance metric. By exploring the border degree, we aim to understand whether physical contiguity with Russia plays a unique role in shaping a country's perception of threats and security concerns, and consequently, its military expenditure decisions. Countries sharing a direct border with Russia may experience more immediate security considerations, influenced by historical conflicts, geopolitical tensions, or territorial disputes. On the other hand, second-degree border countries might have indirect security implications resulting from their proximity to nations with a direct border with Russia. These indirect influences might manifest in different ways and warrant closer examination.
+
+Moving forward, our research report will be structured as follows: we will first delve into the \textit{Data} we utilize, emphasizing its relevance and reliability. Subsequently, we will detail the \textit{Methodology}, with particular emphasis on our novel approach of employing Bayesian Model Averaging, a technique not previously utilized in the papers we draw inspiration from. We will then present and analyze the \textit{Results} of our investigation, providing insights into the potential relationships uncovered. Finally, we will conclude the project with a comprehensive \emph{Summary},
+highlighting the implications of our findings and potential avenues for further research.
+
+%\clearpage
+%\section{Literature Review}
+%\clearpage
+\section{Data}
 \section{Econometric Framework}
 \clearpage
 \section{Estimation}
@@ -87,7 +103,6 @@ by\\ \vspace{3mm}
 \section{Results}
 \clearpage
 \section{Discussion}
-\citep{nordhaus2012}
 \clearpage
 
 

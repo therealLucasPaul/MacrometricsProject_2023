@@ -1,0 +1,59 @@
+@article{nordhaus2012,
+  title={The effects of the international security environment on national military expenditures: A multicountry study},
+  author={Nordhaus, William and Oneal, John R and Russett, Bruce},
+  journal={International Organization},
+  volume={66},
+  number={3},
+  pages={491--513},
+  year={2012},
+  publisher={Cambridge University Press}
+}
+
+@Article{george2018,
+  author   = {Justin George and Todd Sandler},
+  journal  = {European Journal of Political Economy},
+  title    = {Demand for military spending in NATO, 1968–2015: A spatial panel approach},
+  year     = {2018},
+  issn     = {0176-2680},
+  pages    = {222-236},
+  volume   = {53},
+  abstract = {This paper presents two-step GMM panel estimates of NATO allies' demand for defense spending during 1968–2015, 1991–2015, and 1999–2015. A novel feature of our NATO estimates is the spatial autoregressive (SAR) weighting of alliance spillovers of defense spending based on ally contiguity (augmented by US defense spending) and inverse distance between allies. The spatial models provide defense demand estimates that are amazingly consistent with those of the standard spillover model. In particular, free riding is prevalent in all three sets of estimates for the three sample periods and changing set of allies. In addition, the influences of the controls are generally robust, including the effect of the change in strategic doctrine in 1975 that augmented the importance of conventional weapons and, thus, spatial factors. We also present mutual assured destruction (MAD) era defense demand estimations dating back to 1960 and 1950 to show that spatial-based spillovers only matter in the post-MAD era after 1974.},
+  doi      = {https://doi.org/10.1016/j.ejpoleco.2017.09.002},
+  keywords = {D74, H41, NATO defense demand, Spatial autoregression, Strategic doctrine, Free riding, Ally propinquity},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0176268017301581},
+}
+
+@Article{nikolaidou2008,
+  author    = {Nikolaidou, Eftychia},
+  journal   = {Defence and Peace Economics},
+  title     = {The demand for military expenditure: Evidence from the EU15 (1961--2005)},
+  year      = {2008},
+  number    = {4},
+  pages     = {273--292},
+  volume    = {19},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{odehnal2020,
+  author    = {Odehnal, Jakub and Neubauer, Ji{\v{r}}{\'\i}},
+  journal   = {Defence and peace economics},
+  title     = {Economic, security, and political determinants of military spending in NATO countries},
+  year      = {2020},
+  number    = {5},
+  pages     = {517--531},
+  volume    = {31},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{kofrovn2023,
+  author    = {Kofro{\v{n}}, Jan and Stauber, Jakub},
+  journal   = {Journal of Contemporary European Studies},
+  title     = {The impact of the Russo-Ukrainian conflict on military expenditures of European states: security alliances or geography?},
+  year      = {2023},
+  number    = {1},
+  pages     = {151--168},
+  volume    = {31},
+  publisher = {Taylor \& Francis},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

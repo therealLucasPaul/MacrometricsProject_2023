@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  24 JUL 2023 12:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  26 JUL 2023 21:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -425,14 +425,14 @@ LaTeX Font Info:    ... okay on input line 42.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
 * v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=426.79135pt
+* \textwidth=455.24411pt
 * \textheight=702.78308pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
 * \topmargin=-38.1381pt
 * \headheight=14.49998pt
 * \headsep=25.0pt
@@ -504,16 +504,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.80 \clearpage
-                [1] [2
-
-] [3
+l.91 
+      [1] [2] [3
 
 ] [4
 
 ] [5
-
-] [6
 
 ] (TheKremlinEffect_Paper.bbl) [2
 
@@ -521,25 +517,25 @@ l.80 \clearpage
 (TheKremlinEffect_Paper.aux)
 Package rerunfilecheck Info: File `TheKremlinEffect_Paper.out' has not changed.
 
-(rerunfilecheck)             Checksum: A5E09BC81E08AF040303AC1E39BB12B6;742.
+(rerunfilecheck)             Checksum: 92108E653D914F3C6CBFF56ECEBCCB85;674.
  ) 
 Here is how much of TeX's memory you used:
- 13156 strings out of 476331
- 212204 string characters out of 5788237
- 1854660 words of memory out of 5000000
- 33417 multiletter control sequences out of 15000+600000
+ 13171 strings out of 476331
+ 212498 string characters out of 5788237
+ 1864660 words of memory out of 5000000
+ 33429 multiletter control sequences out of 15000+600000
  517607 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,263b,523s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,1470b,523s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmr12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmr17.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmsl12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on TheKremlinEffect_Paper.pdf (9 pages, 181587 bytes).
+Output written on TheKremlinEffect_Paper.pdf (8 pages, 198701 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
+ 139 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
  62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
