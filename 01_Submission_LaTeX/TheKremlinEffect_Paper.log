@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  28 JUL 2023 11:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  28 JUL 2023 17:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -485,7 +485,7 @@ Package hyperref Info: Link coloring ON on input line 42.
 \@outlinefile=\write3
 \openout3 = `TheKremlinEffect_Paper.out'.
 
-<WU.png, id=30, 2007.5pt x 1039.885pt>
+<WU.png, id=27, 2007.5pt x 1039.885pt>
 File: WU.png Graphic file (type png)
 <use WU.png>
 Package pdftex.def Info: WU.png  used on input line 47.
@@ -505,37 +505,60 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.91 
-      [1] [2] [3] [4
+      [1] [2] [3]
+<Map1.pdf, id=111, 316.85176pt x 306.1277pt>
+File: Map1.pdf Graphic file (type pdf)
+<use Map1.pdf>
+Package pdftex.def Info: Map1.pdf  used on input line 138.
+(pdftex.def)             Requested size: 237.63823pt x 229.5952pt.
+ [4
 
-] [5
+ <./Map1.pdf>]
+<Plot2.pdf, id=125, 597.23125pt x 420.57124pt>
+File: Plot2.pdf Graphic file (type pdf)
+<use Plot2.pdf>
+Package pdftex.def Info: Plot2.pdf  used on input line 145.
+(pdftex.def)             Requested size: 215.00308pt x 151.40553pt.
+<Plot3.pdf, id=126, 597.23125pt x 420.57124pt>
+File: Plot3.pdf Graphic file (type pdf)
+<use Plot3.pdf>
+Package pdftex.def Info: Plot3.pdf  used on input line 146.
+(pdftex.def)             Requested size: 215.00308pt x 151.40553pt.
+<Plot4.pdf, id=127, 597.23125pt x 420.57124pt>
+File: Plot4.pdf Graphic file (type pdf)
+<use Plot4.pdf>
+Package pdftex.def Info: Plot4.pdf  used on input line 155.
+(pdftex.def)             Requested size: 268.75157pt x 189.25531pt.
+ [5
 
-] [6
+ <./Plot2.pdf> <./Plot3.pdf> <./Plot4.pdf>] (TheKremlinEffect_Paper.bbl) [2
 
-] (TheKremlinEffect_Paper.bbl) [2
-
-]
-(TheKremlinEffect_Paper.aux)
+] (TheKremlinEffect_Paper.aux)
 Package rerunfilecheck Info: File `TheKremlinEffect_Paper.out' has not changed.
 
-(rerunfilecheck)             Checksum: 92108E653D914F3C6CBFF56ECEBCCB85;674.
+(rerunfilecheck)             Checksum: 507C3D417AA04DE18C0715E1042C5515;578.
  ) 
 Here is how much of TeX's memory you used:
- 13184 strings out of 476331
- 212663 string characters out of 5788237
+ 13234 strings out of 476331
+ 213416 string characters out of 5788237
  1864660 words of memory out of 5000000
- 33438 multiletter control sequences out of 15000+600000
- 517607 words of font info for 50 fonts, out of 8000000 for 9000
+ 33477 multiletter control sequences out of 15000+600000
+ 518230 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,76p,1470b,523s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmr17.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmsl12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on TheKremlinEffect_Paper.pdf (9 pages, 209085 bytes).
+nts/cm/cmr10.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr17.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Fynn/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/Fynn/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Fynn/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on TheKremlinEffect_Paper.pdf (8 pages, 313887 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 62 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 74 words of extra memory for PDF output out of 10000 (max. 10000000)
 

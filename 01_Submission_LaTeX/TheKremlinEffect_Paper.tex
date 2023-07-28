@@ -16,7 +16,7 @@
 \usepackage[hidelinks]{hyperref}
 \hypersetup{
 	colorlinks = true,
-	urlcolor   = black,
+	urlcolor   = blue,
 	linkcolor  = black, 
 	citecolor  = blue, 
 }
@@ -101,23 +101,68 @@ In order to provide an answer to our research question, it is necessary to combi
 The SIRPI database contains consistent time series on the military spending of 173  countries for the period 1949–2022 and, hence, represents our essential measurement for a country's military expenditure, namely \textit{''Military Expenditure by Country as percentage of GDP"}. Their definition of military expenditure includes all spending on current military forces and activities, meaning the armed forces, including peace keeping forces; defense ministries and other government agencies engaged in defense projects; paramilitary forces when judged to be trained, equipped and available for military operations; and military space activities. With respect to the reliability of the data, it should still be noted that the data collected is not only derived from primary sources, but also includes secondary sources and estimates, e.g. from the IMF or NATO.
  
 \pagebreak
-The CEPII database includes an exhaustive set of gravity variables and, thus, a bilateral measurement of distance - distance between the most populated city (\textit{''Distance''}) or the capital city in each country (\textit{''Distance Capital''}). Although the data set had originally been created for a 2005 paper, it has no bearing on reliability, as changes in city distance are either zero or if at all marginal. In addition, we manually checked the distance for randomly drawn distance pairs.
+The CEPII database includes an exhaustive set of gravity variables and, thus, a bilateral measurement of distance, namely distance the capital city in each country (\textit{''Distance''}). Although the data set had originally been created for a 2005 paper, it has no bearing on reliability, as changes in city distance are either zero or if at all marginal. In addition, we manually checked the distance for randomly drawn distance pairs.
 
-The Electoral Democracy Index classifies countries as being more or less democratic  on a scale zero to one and is our approach to not only capture geographical but also structural sociological differences. The resulting ''\textit{Democratic Distance}'' is the difference between a country's and Russia's assigned value. The respective value stems from the consultation of almost 4000 experts within the scope of the V-Dem project. Although an attempt within the V-Dem project is made to select as diverse a sample of individuals, with respect to reliability, it cannot be ruled out that the Index is affected by an Educational- or Western-bias.
+The Electoral Democracy Index (\textit{''V-Dem Index''}) classifies countries as being more or less democratic  on a scale zero to one and is our approach to not only capture geographical but also structural sociological differences. The resulting democratic distance is the difference between a country's and Russia's assigned value. The respective value stems from the consultation of almost 4000 ''experts'' within the scope of the V-Dem project. Although an attempt within the V-Dem project is made to select as diverse a sample of individuals, with respect to reliability, it cannot be ruled out that the Index is affected by an Educational- or Western-bias.
 
-Additionally we manually add ''Direct Border'', ''Secondary Border'' NATO OKVS BRICS Neutrality im Jahr 2021 
+Additionally, we manually create the following variables \textit{''Direct Border''} and \textit{''Secondary Border''}, capturing the existence of a direct border and a border with a state with a direct border, respectively; \textit{''NATO''},a dummy for a NATO membership; \textit{''OKVS''},a dummy for a Collective Security Treaty Organization membership;\textit{''BRICS''}, a dummy for BRICS membership and \textit{''Neutrality''}, a dummy capturing the political Neutrality in Austria and Switzerland. 
 
 
-This leads to our final dataset which contains ... 
+This leads to our final dataset which contains 151 countries after removing non anymore existing countries as well as Russia, Kosovo and South Sudan.\footnote{Russia for plausibility reasons	and Kosovo/South Sudan for lacking data.} \hyperref[t:1]{\color{blue} Table 1} allows to derive our core data structure for the given time stamp 2021.
 
-\textbf{Note für SOPHIA. Das führe ich gleich noch aus. Wollte erst ganz genau die Datenvalidität checken!! Sprachliche improvable, erst first draft.} 
+
+\begin{table}[h]
+\label{t:1}
+\caption{Summary Statistics of Key Variables for t = 2021}
+\begin{tabular}{lrrrrrr}
+\hline \hline
+Variable & N & Mean & Std. Dev. & Min. & Max. \\ \hline
+Military Expenditure as \% of GDP & 151 & 1.82 & 1.32 & 0.11 & 7.58 \\
+Distance &   151  &  5,912.68 &   3,711.31 & 686.96 &  16,774.49 \\
+V-Dem Index & 149 & 0.54& 0.25 & 0.02 & 0.92 \\
+Direct Border & 151 & 0.10 & 0.30 & 0.00 & 1.00 \\
+Secondary Border & 151 & 0.13 & 0.34 & 0.00 &          1.00 \\
+NATO & 151& 0.20 & 0.40 & 0.00 & 1.00 \\         
+OKVS & 151 & 0.03  & 0.17 & 0.00 & 1.00 \\
+BRICS & 151  & 0.03 & 0.16 & 0.00 & 1.00 \\          
+Neutrality & 151   &  0.01 &   0.11 & 0.00 & 1.00 \\     \hline\hline
+\end{tabular}
+\end{table}
+ 
 \section{Econometric Framework}
 \clearpage
-\section{Estimation}
-\clearpage
 \section{Results}
+\begin{figure}[h]
+\center
+\label{F:1}
+\includegraphics[scale=0.75]{Map1.pdf}
+\caption{Mapped Military Expenditure for Europe in 2021}
+\end{figure}
 \clearpage
+\begin{figure}
+\center
+\label{F:2}
+\includegraphics[scale=0.36]{Plot2.pdf}
+\includegraphics[scale=0.36]{Plot3.pdf}
+\caption{Relationship between Military Expenditure and Distance to Moscow as well as V-Dem Index of a Country in 2021}
+\end{figure}
+
+
+
+\begin{figure}
+\center
+\label{F:3}
+\includegraphics[scale=0.45]{Plot4.pdf}
+\caption{Distribution of Military Spending in 2021 based on Border Group in Europe}
+\end{figure}
+
 \section{Discussion}
+Points to touch: 
+\begin{enumerate}
+\item Implications
+\item Robustness-checks
+\item Limitations
+\end{enumerate}
 \clearpage
 
 

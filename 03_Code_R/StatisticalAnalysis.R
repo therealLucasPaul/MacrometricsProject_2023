@@ -52,15 +52,15 @@ View(totaldata)
 #write.csv(totaldata, "../02_Raw_Data/completedata.csv", row.names = FALSE)
 
 ## Sample OLS Estimation
-mod_basic <- lm(pct2020 ~ dist, data=totaldata)
+mod_basic <- lm(pct2021 ~ dist, data=totaldata)
 summary(mod_basic)
 
-mod_extensive <- lm(pct2020 ~ dist+Nato+BRICS+OKVS+continent+DirectBorder+SecondaryBorder, data=totaldata)
+mod_extensive <- lm(pct2021 ~ dist+Nato+BRICS+OKVS+continent+DirectBorder+SecondaryBorder, data=totaldata)
 summary(mod_extensive)
 
-
+summary(elecdem_vdem_owid)
 ##### Bayesian Analysis
-fit.mod1 <- brm(pct2020 ~ dist+Nato+BRICS+OKVS+continent+DirectBorder+SecondaryBorder,
+fit.mod1 <- brm(pct2021 ~ dist+Nato+BRICS+OKVS+continent+DirectBorder+SecondaryBorder,
                 data = totaldata,
                 prior = c(prior(normal(0, 1), class = b),
                           prior(inv_gamma(2, 1), class = sigma)),
@@ -70,3 +70,5 @@ fit.mod1 <- brm(pct2020 ~ dist+Nato+BRICS+OKVS+continent+DirectBorder+SecondaryB
                 iter=1000,
                 warmup = 500)
 fit.mod1
+
+mean(totaldata$electdem_vdem_owid)

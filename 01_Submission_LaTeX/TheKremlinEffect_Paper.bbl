@@ -10,6 +10,7 @@ Coppedge, M., Gerring, J., Knutsen, C.~H., Lindberg, S.~I., Teorell, J.,
   Tzelgov, E., ting Wang, Y., Wig, T., Wilson, S., and Ziblatt, D. (2023).
 \newblock ''v-dem [country-year/country-date] dataset v13'' varieties of
   democracy (v-dem) project.
+\newblock \url{https://doi.org/10.23696/vdemds23}.
 
 \bibitem[George and Sandler, 2018]{george2018}
 George, J. and Sandler, T. (2018).
@@ -44,9 +45,10 @@ Nordhaus, W., Oneal, J.~R., and Russett, B. (2012).
 Odehnal, J. and Neubauer, J. (2020).
 \newblock Economic, security, and political determinants of military spending
   in nato countries.
-\newblock {\em Defence and peace economics}, 31(5):517--531.
+\newblock {\em Defence and Peace Economics}, 31(5):517--531.
 
 \bibitem[{SIPRI Military Expenditure Database}, 2023]{SIRPI}
 {SIPRI Military Expenditure Database} (2023).
+\newblock \url{https://www.sipri.org/databases/milex}.
 
 \end{thebibliography}
