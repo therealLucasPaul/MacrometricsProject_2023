@@ -28,7 +28,7 @@ distance_data <- read_xls("../02_Raw_Data/dist_cepii.xls") %>% ### Distance of C
   rename(dist = distcap) %>%
   add_row(iso_d = "MNE", dist = 1983)
 
-democracyindex_data <- read_csv("../02_Raw_Data/electoral-democracy-index.csv") %>% ### Democracy Index
+democracyindex_data <- read_csv("../02_Raw_Data/electoral-democracy-index_new.csv") %>% ### Democracy Index
   filter(Year == 2021) %>%
   rename(Country = Entity) %>%
   rename(iso3 = Code)
