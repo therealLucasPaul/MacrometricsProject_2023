@@ -1,5 +1,16 @@
 \begin{thebibliography}{}
 
+\bibitem[Coppedge et~al., 2023]{VDEM}
+Coppedge, M., Gerring, J., Knutsen, C.~H., Lindberg, S.~I., Teorell, J.,
+  Altman, D., Bernhard, M., Cornell, A., Fish, M.~S., Gastaldi, L., Gjerloew,
+  H., Glynn, A., God, A.~G., Grahn, S., Hicken, A., Kinzelbach, K., Krusell,
+  J., Marquardt, K.~L., McMann, K., Mechkova, V., Medzihorsky, J., Natsika, N.,
+  Neundorf, A., Paxton, P., amd Josefine~Pernes, D.~P., Ryden, O., von Roemer,
+  J., Seim, B., Sigman, R., Skaaning, S.-E., Staton, J., Sundstroem, A.,
+  Tzelgov, E., ting Wang, Y., Wig, T., Wilson, S., and Ziblatt, D. (2023).
+\newblock ''v-dem [country-year/country-date] dataset v13'' varieties of
+  democracy (v-dem) project.
+
 \bibitem[George and Sandler, 2018]{george2018}
 George, J. and Sandler, T. (2018).
 \newblock Demand for military spending in nato, 1968–2015: A spatial panel
@@ -11,6 +22,11 @@ Kofro{\v{n}}, J. and Stauber, J. (2023).
 \newblock The impact of the russo-ukrainian conflict on military expenditures
   of european states: security alliances or geography?
 \newblock {\em Journal of Contemporary European Studies}, 31(1):151--168.
+
+\bibitem[Mayer and Zignago, 2011]{mayer2011}
+Mayer, T. and Zignago, S. (2011).
+\newblock Notes on cepii’s distances measures: The geodist database.
+\newblock {\em CEPII working paper}.
 
 \bibitem[Nikolaidou, 2008]{nikolaidou2008}
 Nikolaidou, E. (2008).
@@ -29,5 +45,8 @@ Odehnal, J. and Neubauer, J. (2020).
 \newblock Economic, security, and political determinants of military spending
   in nato countries.
 \newblock {\em Defence and peace economics}, 31(5):517--531.
+
+\bibitem[{SIPRI Military Expenditure Database}, 2023]{SIRPI}
+{SIPRI Military Expenditure Database} (2023).
 
 \end{thebibliography}

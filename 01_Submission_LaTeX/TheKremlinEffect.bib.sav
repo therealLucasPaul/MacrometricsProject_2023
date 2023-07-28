@@ -56,4 +56,41 @@
   publisher = {Taylor \& Francis},
 }
 
+@Article{looney1990,
+  author    = {Looney, Robert E and Frederiksen, Peter C},
+  journal   = {Contemporary Southeast Asia},
+  title     = {The economic determinants of military expenditure in selected east asian countries},
+  year      = {1990},
+  pages     = {265--277},
+  publisher = {JSTOR},
+}
+
+@Electronic{SIRPI,
+  author = {{SIPRI Military Expenditure Database}},
+  url    = {https://www.sipri.org/databases/milex},
+  year   = {2023},
+}
+
+@Article{mayer2011,
+  author  = {Mayer, Thierry and Zignago, Soledad},
+  journal = {CEPII working paper},
+  title   = {Notes on CEPII’s distances measures: The GeoDist database},
+  year    = {2011},
+}
+
+@Article{pemstein2018,
+  author  = {Pemstein, Daniel and Marquardt, Kyle L and Tzelgov, Eitan and Wang, Yi-ting and Krusell, Joshua and Miri, Farhad},
+  journal = {V-Dem working paper},
+  title   = {The V-Dem measurement model: latent variable analysis for cross-national and cross-temporal expert-coded data​},
+  year    = {2018},
+  volume  = {21},
+}
+
+@Electronic{VDEM,
+  author = {Coppedge, Michael and John Gerring and Carl Henrik Knutsen and Staffan I. Lindberg and Jan Teorell and David Altman and Michael Bernhard and Agnes Cornell and M. Steven Fish and Lisa Gastaldi and Haakon Gjerloew and Adam Glynn and Ana Good God and Sandra Grahn and Allen Hicken and Katrin Kinzelbach and Joshua Krusell and Kyle L. Marquardt and Kelly McMann and Valeriya Mechkova and Juraj Medzihorsky and Natalia Natsika and Anja Neundorf and Pamela Paxton and Daniel Pemstein amd Josefine Pernes and Oskar Rydén and Johannes von Roemer and Brigitte Seim and Rachel Sigman and Svend-Erik Skaaning and Jeffrey Staton and Aksel Sundstroem and Eitan Tzelgov and Yi-ting Wang and Tore Wig and Steven Wilson and Daniel Ziblatt},
+  title  = {''V-Dem [Country-Year/Country-Date] Dataset v13'' Varieties of Democracy (V-Dem) Project},
+  url    = {https://doi.org/10.23696/vdemds23.},
+  year   = {2023},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
