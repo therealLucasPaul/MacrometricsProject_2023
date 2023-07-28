@@ -10,9 +10,8 @@ library(tidyverse)
 ## Read in / Set Up Data
 military_data <- read_xlsx("../02_Raw_Data/SIPRI_MillexData.xlsx",sheet = "Share of GDP_Adjusted", range="A6:BX180") %>% ### Data on military expenditure
   select(Country, `2021`) %>%
-  #slice(124:175) %>%
   filter(!(`2021` %in% c("xxx","...", NA))) %>%
-  mutate(pct2020 = as.numeric(`2021`)*100) %>%
+  mutate(pct2021 = as.numeric(`2021`)*100) %>%
   select(-`2021`) %>%
   arrange(Country)
 
@@ -24,7 +23,9 @@ country_data <- read_xls("../02_Raw_Data/geo_cepii.xls") %>% ### ISO Codes of Co
 
 distance_data <- read_xls("../02_Raw_Data/dist_cepii.xls") %>% ### Distance of Capitals to Moskow
   filter(iso_o == "RUS") %>%
-  select(iso_d, dist) %>%
+  mutate(distcap = distcap) %>%
+  select(iso_d, distcap) %>%
+  rename(dist = distcap) %>%
   add_row(iso_d = "MNE", dist = 1983)
 
 democracyindex_data <- read_csv("../02_Raw_Data/electoral-democracy-index.csv") %>% ### Democracy Index
@@ -48,8 +49,24 @@ totaldata <- left_join(left_join(left_join(left_join(military_data, country_data
 head(totaldata)
 View(totaldata)
 
+#write.csv(totaldata, "../02_Raw_Data/completedata.csv", row.names = FALSE)
+
+## Sample OLS Estimation
+mod_basic <- lm(pct2020 ~ dist, data=totaldata)
+summary(mod_basic)
+
+mod_extensive <- lm(pct2020 ~ dist+Nato+BRICS+OKVS+continent+DirectBorder+SecondaryBorder, data=totaldata)
+summary(mod_extensive)
 
 
-## OLS Estimation
-mod_test <- lm(pct2020 ~ dist+Nato+BRICS+OKVS+electdem_vdem_owid+continent+DirectBorder+SecondaryBorder, data=totaldata)
-summary(mod_test)
+##### Bayesian Analysis
+fit.mod1 <- brm(pct2020 ~ dist+Nato+BRICS+OKVS+continent+DirectBorder+SecondaryBorder,
+                data = totaldata,
+                prior = c(prior(normal(0, 1), class = b),
+                          prior(inv_gamma(2, 1), class = sigma)),
+                save_pars = save_pars(all = TRUE),
+                sample_prior="yes",
+                chains=2,
+                iter=1000,
+                warmup = 500)
+fit.mod1
