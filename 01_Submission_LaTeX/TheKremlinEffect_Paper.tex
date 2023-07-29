@@ -9,6 +9,7 @@
 \usepackage[english]{babel}
 \usepackage[OT1]{fontenc}
 \usepackage{amsmath}
+\usepackage{mathtools}
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage[round]{natbib}
@@ -130,6 +131,24 @@ Neutrality & 151   &  0.01 &   0.11 & 0.00 & 1.00 \\     \hline\hline
 \end{table}
  
 \section{Econometric Framework}
+In order to draw inference, but also reflect existing model uncertainty, we use Bayesian Model Averaging (BMA) as our approach to tackle the underlying research question.  Instead of just estimating one model $\hat{M}$ and updating our prior beliefs $p(\theta)$ to posterior beliefs $p(\theta \vert data)$, we estimate several models $M_{i}$ incorporating different distance measures and covariates. Afterwards, we take the combined parameter distribution, weighted by the posterior model probability of all candidate models to draw conclusions (i.e. BMA; following \citealp{jeffreys1939} and \citealp{jevons1874}). The used posterior model probability reflects the plausibility of a model given the data, i.e. $p(M_{i} \vert data)$.
+\clearpage 
+Applied to our research question, namely whether distance to Russia (or Moskow) is a predictor of military expenditure, this implies that we first have to define the candidate models, reflecting our uncertainty about the different layers of distance. Given the heterogeneity of data availability, we first estimate the models for 2021 and, afterwards, use different time settings as robustness-checks. Thus, the model specifications are as follows: 
+\begin{align*}
+ M_1 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Distance} + \textrm{V-Dem Index} + \textrm{Direct Border} \\ +  \textrm{ Secondary Border} +  \textrm{NATO} + \textrm{OKVS} + \textrm{BRICS} + \textrm{Neutrality} 
+\end{align*}\\[-3.5em]
+\begin{align*}
+ M_2 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Distance} + \textrm{Direct Border} + \textrm{Secondary Border} \\ + \textrm{ NATO} + \textrm{OKVS} + \textrm{BRICS} + \textrm{Neutrality} 
+\end{align*}\\[-3.5em]
+\begin{align*}
+M_4 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Distance}  
+\end{align*}\\[-3.5em]
+\begin{align*}
+  M_3 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Direct Border} + \textrm{Secondary Border} \\ + \textrm{ NATO} + \textrm{OKVS} + \textrm{BRICS} + \textrm{Neutrality} 
+\end{align*}
+Thus
+
+
 \clearpage
 \section{Results}
 \begin{figure}[h]
