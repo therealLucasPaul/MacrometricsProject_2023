@@ -147,14 +147,15 @@ M_4 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Distance}
   M_3 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Direct Border} + \textrm{Secondary Border} \\ + \textrm{ NATO} + \textrm{OKVS} + \textrm{BRICS} + \textrm{Neutrality} 
 \end{align*}
 We fit these Bayesian regression models using a Markov Chain Monte Carlo (MCMC) algorithm to obtain posterior distributions for the model parameters. The MCMC sampling includes two chains and a total of 1000 iterations, with the first 500 iterations discarded as burn-in period to ensure convergence. In order to be non-influential, allowing the data to have a dominant role in the estimation of model parameters, we use weakly uninformative priors, namely a normal distribution with mean 0 and standard deviation 1 for the regression coefficients and an inverse gamma distribution with shape parameter 2 and scale parameter 1 for the error's term standard deviation.
-
-\section{Results}
 \begin{figure}[h]
 \center
 \label{F:1}
 \includegraphics[scale=0.75]{Map1.pdf}
 \caption{Mapped Military Expenditure for Europe in 2021}
 \end{figure}
+\section{Results}
+Looking at the mapped military expenditures in 2021 for Europe (see \hyperref[F:1]{\color{blue}Figure 1}), a slight trend in the descriptive data is evident, indicating that, with the exception of the UK, military expenditures are higher for countries closer to Russia. It also seems that the degree of border also positively (captured in the following regression through ''Direct Border'' and ''Secondary Border'') correlates with higher military expenditures. 
+
 \clearpage
 \begin{figure}
 \center
@@ -164,24 +165,32 @@ We fit these Bayesian regression models using a Markov Chain Monte Carlo (MCMC) 
 \caption{Relationship between Military Expenditure and Distance to Moscow as well as V-Dem Index of a Country in 2021}
 \end{figure}
 
+Extending the descriptive visualization to the entire data set in form of a scatterplot (see \hyperref[F:2]{\color{blue}Figure 2, left panel}) again shows a first indication that the distance to Moscow - and, thus, Russia - may be affect a country's military expenditure, as the variance decreases if the distance increases. Yet, one can at the same time see the respective continent as well influencing the relationship. \textbf{!!!short part zu VDEM Panel- FOLGT NOCH!!!}.
 
 
-\begin{figure}
+\textbf{!!Hier das neue Model 1 mit VDEM!!}
+\\
+
+If we look at the second model
+
+\begin{figure}[h]
 \center
-\label{F:3}
-\includegraphics[scale=0.45]{Plot4.pdf}
-\caption{Distribution of Military Spending in 2021 based on Border Group in Europe}
+\label{F:2}
+\includegraphics[scale=0.36]{PosteriorPlot_Distance_Model1.png}
+\caption{}
 \end{figure}
 
+
+\clearpage
 \section{Discussion}
 Points to touch: 
 \begin{enumerate}
-\item Implications
 \item Robustness-checks
-\item Limitations
+\item Limitations\item Implications 
 \end{enumerate}
 \clearpage
 \section{Conclusion}
+
 Our research project contributes to the existing literature by focusing on the geographical distance to Russia as a key determinant of military spending. The novel approach in this research area of employing Bayesian Model averaging offers a robust econometric method for analyzing complex relationships that demand a high number of control variables and could be extended to further research on military expenditures. 
 While our project provides new insights, there are still several avenues for further explorations. Investigating the reasons behind specific countries’ deviations from the 2 \% GDP allocation norm within NATO and understanding how regional alliances or geopolitical interests might interact with geopolitical proximity could yield additional valuable findings. 
 By utilizing measures beyond just capital city distances as a proxy for distance, our analysis reveals diverse results prompting us to consider whether further exploration with different distance definitions could contribute further to understanding this area. Moreover, a potential shift from geographical distance to political distance to Russia could still provide a fresh perspective, exploring, how countries’ political perception of Russia influences their defense spending over time.

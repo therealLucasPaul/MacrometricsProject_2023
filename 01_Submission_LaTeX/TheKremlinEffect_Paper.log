@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  29 JUL 2023 18:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  29 JUL 2023 19:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -426,7 +426,14 @@ ex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count294
 \l__pdf_internal_box=\box55
-) (TheKremlinEffect_Paper.aux)
+) (TheKremlinEffect_Paper.aux
+
+LaTeX Warning: Label `F:2' multiply defined.
+
+
+LaTeX Warning: Label `F:2' multiply defined.
+
+)
 \openout1 = `TheKremlinEffect_Paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
@@ -554,63 +561,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--146
 <Map1.pdf, id=124, 316.85176pt x 306.1277pt>
 File: Map1.pdf Graphic file (type pdf)
 <use Map1.pdf>
-Package pdftex.def Info: Map1.pdf  used on input line 155.
+Package pdftex.def Info: Map1.pdf  used on input line 153.
 (pdftex.def)             Requested size: 237.63823pt x 229.5952pt.
 [4
 
  <./Map1.pdf>]
-<Plot2.pdf, id=138, 597.23125pt x 420.57124pt>
+<Plot2.pdf, id=139, 597.23125pt x 420.57124pt>
 File: Plot2.pdf Graphic file (type pdf)
 <use Plot2.pdf>
-Package pdftex.def Info: Plot2.pdf  used on input line 162.
+Package pdftex.def Info: Plot2.pdf  used on input line 163.
 (pdftex.def)             Requested size: 215.00308pt x 151.40553pt.
-<Plot3.pdf, id=139, 597.23125pt x 420.57124pt>
+<Plot3.pdf, id=140, 597.23125pt x 420.57124pt>
 File: Plot3.pdf Graphic file (type pdf)
 <use Plot3.pdf>
-Package pdftex.def Info: Plot3.pdf  used on input line 163.
+Package pdftex.def Info: Plot3.pdf  used on input line 164.
 (pdftex.def)             Requested size: 215.00308pt x 151.40553pt.
-<Plot4.pdf, id=140, 597.23125pt x 420.57124pt>
-File: Plot4.pdf Graphic file (type pdf)
-<use Plot4.pdf>
-Package pdftex.def Info: Plot4.pdf  used on input line 172.
-(pdftex.def)             Requested size: 268.75157pt x 189.25531pt.
- [5
 
- <./Plot2.pdf> <./Plot3.pdf> <./Plot4.pdf>] [6
+Underfull \hbox (badness 10000) in paragraph at lines 171--173
+
+ []
+
+<PosteriorPlot_Distance_Model1.png, id=142, 568.37344pt x 444.91219pt>
+File: PosteriorPlot_Distance_Model1.png Graphic file (type png)
+<use PosteriorPlot_Distance_Model1.png>
+Package pdftex.def Info: PosteriorPlot_Distance_Model1.png  used on input line 
+179.
+(pdftex.def)             Requested size: 204.61427pt x 160.16826pt.
+[5
+
+ <./Plot2.pdf> <./Plot3.pdf> <./PosteriorPlot_Distance_Model1.png>] [6
 
 ]
-(TheKremlinEffect_Paper.bbl) [2
+[7
+
+] (TheKremlinEffect_Paper.bbl) [2
 
 ] (TheKremlinEffect_Paper.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `TheKremlinEffect_Paper.out' has not changed.
 
 (rerunfilecheck)             Checksum: 336C58E093451636EA4F4BCDD046672A;674.
  ) 
 Here is how much of TeX's memory you used:
- 13886 strings out of 476331
- 225617 string characters out of 5788237
+ 13887 strings out of 476331
+ 225778 string characters out of 5788237
  1865660 words of memory out of 5000000
- 34114 multiletter control sequences out of 15000+600000
+ 34113 multiletter control sequences out of 15000+600000
  518230 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,76p,1470b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmmi12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmmi8.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Fynn/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Fynn/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Fynn/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Fynn/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/Fyn
-n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
-sers/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.p
-fb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmtt12.pfb>
-Output written on TheKremlinEffect_Paper.pdf (9 pages, 350915 bytes).
+
+pdfTeX warning (dest): name{figure.caption.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+<C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Fynn/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Fynn/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Fynn/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/Fynn/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
+rs/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb
+><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+tt12.pfb>
+Output written on TheKremlinEffect_Paper.pdf (10 pages, 355526 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
+ 240 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
  82 words of extra memory for PDF output out of 10000 (max. 10000000)
 
