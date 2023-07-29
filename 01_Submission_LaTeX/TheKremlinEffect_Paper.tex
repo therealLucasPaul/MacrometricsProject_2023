@@ -104,12 +104,12 @@ The SIRPI database contains consistent time series on the military spending of 1
 \pagebreak
 The CEPII database includes an exhaustive set of gravity variables and, thus, a bilateral measurement of distance, namely distance the capital city in each country (\textit{''Distance''}). Although the data set had originally been created for a 2005 paper, it has no bearing on reliability, as changes in city distance are either zero or if at all marginal. In addition, we manually checked the distance for randomly drawn distance pairs.
 
-The Electoral Democracy Index (\textit{''V-Dem Index''}) classifies countries as being more or less democratic  on a scale zero to one and is our approach to not only capture geographical but also structural sociological differences. The resulting democratic distance is the difference between a country's and Russia's assigned value. The respective value stems from the consultation of almost 4000 ''experts'' within the scope of the V-Dem project. Although an attempt within the V-Dem project is made to select as diverse a sample of individuals, with respect to reliability, it cannot be ruled out that the Index is affected by an Educational- or Western-bias.
+The Electoral Democracy Index (\textit{''V-Dem Index''}) classifies countries as being more or less democratic  on a scale zero to one and is our approach to not only capture geographical but also structural sociological differences. The resulting democratic distance is the difference between a country's and Russia's assigned value. The respective value stems from the consultation of almost 4000 ''experts'' within the scope of the V-Dem project. Although an attempt within the V-Dem project is made to select as diverse a sample of individuals, with respect to reliability, it cannot be ruled out that the index is affected by an Educational- or Western-bias.
 
-Additionally, we manually create the following variables \textit{''Direct Border''} and \textit{''Secondary Border''}, capturing the existence of a direct border and a border with a state with a direct border, respectively; \textit{''NATO''},a dummy for a NATO membership; \textit{''OKVS''},a dummy for a Collective Security Treaty Organization membership;\textit{''BRICS''}, a dummy for BRICS membership and \textit{''Neutrality''}, a dummy capturing the political Neutrality in Austria and Switzerland. 
+Additionally, we manually create the following variables \textit{''Direct Border''} and \textit{''Secondary Border''}, capturing the existence of a direct border and a border with a state with a direct border, respectively; \textit{''NATO''}, a dummy for a NATO membership; \textit{''OKVS''}, a dummy for a Collective Security Treaty Organization membership;\textit{''BRICS''}, a dummy for a BRICS membership and \textit{''Neutrality''}, a dummy capturing the political Neutrality in Austria and Switzerland. 
 
 
-This leads to our final dataset which contains 151 countries after removing non anymore existing countries as well as Russia, Kosovo and South Sudan.\footnote{Russia for plausibility reasons	and Kosovo/South Sudan for lacking data.} \hyperref[t:1]{\color{blue} Table 1} allows to derive our core data structure for the given time stamp 2021.
+This leads to our final dataset which contains 151 countries after removing countries, which do not exist anymore, as well as Russia, Kosovo and South Sudan.\footnote{Russia for plausibility reasons	and Kosovo/South Sudan for lacking data.} \hyperref[t:1]{\color{blue} Table 1} allows to derive our core data structure for the given time stamp 2021.
 
 
 \begin{table}[h]
@@ -146,10 +146,8 @@ M_4 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Distance}
 \begin{align*}
   M_3 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Direct Border} + \textrm{Secondary Border} \\ + \textrm{ NATO} + \textrm{OKVS} + \textrm{BRICS} + \textrm{Neutrality} 
 \end{align*}
-Thus
+We fit these Bayesian regression models using a Markov Chain Monte Carlo (MCMC) algorithm to obtain posterior distributions for the model parameters. The MCMC sampling includes two chains and a total of 1000 iterations, with the first 500 iterations discarded as burn-in period to ensure convergence. In order to be non-influential, allowing the data to have a dominant role in the estimation of model parameters, we use weakly uninformative priors, namely a normal distribution with mean 0 and standard deviation 1 for the regression coefficients and an inverse gamma distribution with shape parameter 2 and scale parameter 1 for the error's term standard deviation.
 
-
-\clearpage
 \section{Results}
 \begin{figure}[h]
 \center
@@ -182,6 +180,16 @@ Points to touch:
 \item Robustness-checks
 \item Limitations
 \end{enumerate}
+\clearpage
+\section{Conclusion}
+Our research project contributes to the existing literature by focusing on the geographical distance to Russia as a key determinant of military spending. The novel approach in this research area of employing Bayesian Model averaging offers a robust econometric method for analyzing complex relationships that demand a high number of control variables and could be extended to further research on military expenditures. 
+While our project provides new insights, there are still several avenues for further explorations. Investigating the reasons behind specific countries’ deviations from the 2 \% GDP allocation norm within NATO and understanding how regional alliances or geopolitical interests might interact with geopolitical proximity could yield additional valuable findings. 
+By utilizing measures beyond just capital city distances as a proxy for distance, our analysis reveals diverse results prompting us to consider whether further exploration with different distance definitions could contribute further to understanding this area. Moreover, a potential shift from geographical distance to political distance to Russia could still provide a fresh perspective, exploring, how countries’ political perception of Russia influences their defense spending over time.
+In conclusion, our research underscores the importance of physical geography and external security factors influencing military spending decisions. By examining the influence of geographical distance to Russia on military expenditures, we have enriched our understanding of how perceived threats and security concerns are translated into defense policies on a global scale. The finding from our analysis suggest that Policymakers should consider the geographical context and security concerns when planning defense budgets and contribute to the broader discourse on defense spending determinants, encouraging further exploration in this area.
+
+
+
+
 \clearpage
 
 
