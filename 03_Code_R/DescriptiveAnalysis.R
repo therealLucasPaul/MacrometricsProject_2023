@@ -1,37 +1,39 @@
-+# Descriptive Analysis
-  ### Init
+#### Descriptive Analysis - Macrometrics 2023
+### Fynn Lohre - Lucas Unterweger - Sophia Oberbrinkmann
+
+## Load neccessary packages
 library(readxl)
 library(tidyverse)
 library(ggplot2)
 library(ggthemes)
-library(rgdal) # Für Shapefiles
+library(rgdal) 
 library(cartography)
 
-### Create Map
+### Create Data set for map
 totaldata2 <- totaldata %>%
   filter(iso2 %in% nuts0.spdf$id) %>%
   select(Country.x, pct2021, iso2) %>%
   rename(Country = Country.x) %>%
-  add_row(Country = "Iceland",iso2 = "IS", pct2021 = 0) %>%
+  add_row(Country = "Iceland",iso2 = "IS", pct2021 = 0) %>% # Some adjustemts are necessary to clean up data missmatch
   add_row(Country = "United Kingdom",iso2 = "UK", pct2021 = 2.1615719) %>%
   add_row(Country = "Lichtenstein",iso2 = "LI", pct2021 = 0) %>%
   rename(id = iso2) %>%
   arrange(match(id, nuts0.spdf$id))
 
-pct <- as.numeric(totaldata2$pct2021)
+pct <- as.numeric(totaldata2$pct2021) # Add the data on military spending to the data frame
 nuts0.df2 <- cbind(nuts0.df, pct)
-#data(nuts2006)
-#choroLayer(spdf = nuts0.spdf, df = as.data.frame(totaldata2), var = "pct2021" , legend.pos = "right")
-choroLayer(spdf = nuts0.spdf, df = nuts0.df2, var = "pct" , legend.pos = "right",
+data(nuts2006)
+
+choroLayer(spdf = nuts0.spdf, df = nuts0.df2, var = "pct" , legend.pos = "right", # Plot Map
            legend.title.txt = "% of GDP (2021)",
            legend.frame = TRUE,
            legend.values.rnd = 2,
            breaks = c(0,1,1.5,2,2.5,4),
            col = carto.pal(pal1 = "red.pal", n1=6))
-title("Military Expenditure in % of GDP in 2021")
+title("Military Expenditure in % of GDP in 2021") # Add Title to Plot
 
-#### Basic Plots
-### Measures of Distance
+## Basic Plots
+### Different Measures of Distance
 totaldata <- read.csv("../02_Raw_Data/completedata.csv") %>%
   rename(Country = Country.x) %>%
   mutate(db = DirectBorder) %>%
@@ -65,6 +67,7 @@ ggplot(totaldata, aes(x=electdem_vdem_owid, y=pct2021, color = continent))+
   scale_color_discrete(name = "Continent")+
   theme_minimal()
 
+### Distribution pre Border Relationship
 ggplot(filter(totaldata), aes(y=pct2021, color=tb)) +
   geom_boxplot()+
   ylab("Military Expenditure in % of GDP (2021)")+
