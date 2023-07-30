@@ -1,0 +1,107 @@
+Model 1 - 2021 - Estimates
+
+\begin{table}[!htbp] \centering 
+  \caption{} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & Estimate & Est.Error & Q2.5 & Q97.5 \\ 
+\hline \\[-1.8ex] 
+Intercept & $3.259$ & $0.394$ & $2.475$ & $4.012$ \\ 
+dist & $$-$0.0002$ & $0.0001$ & $$-$0.0003$ & $$-$0.0001$ \\ 
+Nato & $0.402$ & $0.357$ & $$-$0.283$ & $1.083$ \\ 
+BRICS & $$-$0.303$ & $0.545$ & $$-$1.391$ & $0.772$ \\ 
+OKVS & $$-$0.780$ & $0.503$ & $$-$1.722$ & $0.230$ \\ 
+continentAmerica & $0.522$ & $0.356$ & $$-$0.166$ & $1.182$ \\ 
+continentAsia & $0.952$ & $0.274$ & $0.435$ & $1.507$ \\ 
+continentEurope & $$-$1.038$ & $0.421$ & $$-$1.850$ & $$-$0.228$ \\ 
+continentPacific & $1.127$ & $0.617$ & $0.026$ & $2.330$ \\ 
+DirectBorder & $$-$0.334$ & $0.345$ & $$-$0.974$ & $0.336$ \\ 
+SecondaryBorder & $$-$0.469$ & $0.310$ & $$-$1.078$ & $0.147$ \\ 
+electdem\_vdem\_owid & $$-$0.488$ & $0.454$ & $$-$1.422$ & $0.435$ \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+
+Model 2 - 2021 - Estimates
+
+\begin{table}[!htbp] \centering 
+  \caption{} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & Estimate & Est.Error & Q2.5 & Q97.5 \\ 
+\hline \\[-1.8ex] 
+Intercept & $3.259$ & $0.394$ & $2.475$ & $4.012$ \\ 
+dist & $$-$0.0002$ & $0.0001$ & $$-$0.0003$ & $$-$0.0001$ \\ 
+Nato & $0.402$ & $0.357$ & $$-$0.283$ & $1.083$ \\ 
+BRICS & $$-$0.303$ & $0.545$ & $$-$1.391$ & $0.772$ \\ 
+OKVS & $$-$0.780$ & $0.503$ & $$-$1.722$ & $0.230$ \\ 
+continentAmerica & $0.522$ & $0.356$ & $$-$0.166$ & $1.182$ \\ 
+continentAsia & $0.952$ & $0.274$ & $0.435$ & $1.507$ \\ 
+continentEurope & $$-$1.038$ & $0.421$ & $$-$1.850$ & $$-$0.228$ \\ 
+continentPacific & $1.127$ & $0.617$ & $0.026$ & $2.330$ \\ 
+DirectBorder & $$-$0.334$ & $0.345$ & $$-$0.974$ & $0.336$ \\ 
+SecondaryBorder & $$-$0.469$ & $0.310$ & $$-$1.078$ & $0.147$ \\ 
+electdem\_vdem\_owid & $$-$0.488$ & $0.454$ & $$-$1.422$ & $0.435$ \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+
+Robustness Checks
+2005 - Estimates
+
+\begin{table}[!htbp] \centering 
+  \caption{} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & Estimate & Est.Error & Q2.5 & Q97.5 \\ 
+\hline \\[-1.8ex] 
+Intercept & $3.099$ & $0.377$ & $2.363$ & $3.831$ \\ 
+dist & $$-$0.0002$ & $0.0001$ & $$-$0.0003$ & $$-$0.0001$ \\ 
+Nato & $0.474$ & $0.344$ & $$-$0.210$ & $1.144$ \\ 
+BRICS & $0.046$ & $0.524$ & $$-$1.044$ & $1.018$ \\ 
+OKVS & $$-$0.685$ & $0.510$ & $$-$1.741$ & $0.274$ \\ 
+continentAmerica & $0.586$ & $0.370$ & $$-$0.123$ & $1.333$ \\ 
+continentAsia & $1.057$ & $0.253$ & $0.583$ & $1.560$ \\ 
+continentEurope & $$-$0.694$ & $0.419$ & $$-$1.510$ & $0.133$ \\ 
+continentPacific & $0.914$ & $0.557$ & $$-$0.183$ & $2.008$ \\ 
+DirectBorder & $$-$0.534$ & $0.314$ & $$-$1.142$ & $0.078$ \\ 
+SecondaryBorder & $$-$0.503$ & $0.287$ & $$-$1.038$ & $0.087$ \\ 
+electdem\_vdem\_owid & $$-$0.756$ & $0.445$ & $$-$1.627$ & $0.104$ \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+
+2015 - Estimates
+
+\begin{table}[!htbp] \centering 
+  \caption{} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & Estimate & Est.Error & Q2.5 & Q97.5 \\ 
+\hline \\[-1.8ex] 
+Intercept & $3.460$ & $0.477$ & $2.523$ & $4.401$ \\ 
+dist & $$-$0.0002$ & $0.0001$ & $$-$0.0003$ & $$-$0.0001$ \\ 
+Nato & $0.220$ & $0.417$ & $$-$0.561$ & $1.008$ \\ 
+BRICS & $$-$0.218$ & $0.576$ & $$-$1.412$ & $0.913$ \\ 
+OKVS & $$-$0.539$ & $0.599$ & $$-$1.680$ & $0.618$ \\ 
+continentAmerica & $0.704$ & $0.402$ & $$-$0.058$ & $1.515$ \\ 
+continentAsia & $1.408$ & $0.339$ & $0.746$ & $2.079$ \\ 
+continentEurope & $$-$0.917$ & $0.462$ & $$-$1.811$ & $0.021$ \\ 
+continentPacific & $1.016$ & $0.669$ & $$-$0.267$ & $2.316$ \\ 
+DirectBorder & $$-$0.307$ & $0.382$ & $$-$1.022$ & $0.438$ \\ 
+SecondaryBorder & $$-$0.768$ & $0.350$ & $$-$1.501$ & $$-$0.085$ \\ 
+electdem\_vdem\_owid & $$-$0.983$ & $0.530$ & $$-$2.004$ & $0.097$ \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
