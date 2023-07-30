@@ -141,10 +141,10 @@ Applied to our research question, namely whether distance to Russia (or Moskow) 
  M_2 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Distance} + \textrm{Direct Border} + \textrm{Secondary Border} \\ + \textrm{ NATO} + \textrm{OKVS} + \textrm{BRICS} + \textrm{Neutrality} 
 \end{align*}\\[-3.5em]
 \begin{align*}
-M_4 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Distance}  
+M_3 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Distance}  
 \end{align*}\\[-3.5em]
 \begin{align*}
-  M_3 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Direct Border} + \textrm{Secondary Border} \\ + \textrm{ NATO} + \textrm{OKVS} + \textrm{BRICS} + \textrm{Neutrality} 
+  M_4 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Direct Border} + \textrm{Secondary Border} \\ + \textrm{ NATO} + \textrm{OKVS} + \textrm{BRICS} + \textrm{Neutrality} 
 \end{align*}
 We fit these Bayesian regression models using a Markov Chain Monte Carlo (MCMC) algorithm to obtain posterior distributions for the model parameters. The MCMC sampling includes two chains and a total of 1000 iterations, with the first 500 iterations discarded as burn-in period to ensure convergence. In order to be non-influential, allowing the data to have a dominant role in the estimation of model parameters, we use weakly uninformative priors, namely a normal distribution with mean 0 and standard deviation 1 for the regression coefficients and an inverse gamma distribution with shape parameter 2 and scale parameter 1 for the error's term standard deviation.
 \begin{figure}[h]
@@ -165,28 +165,86 @@ Looking at the mapped military expenditures in 2021 for Europe (see \hyperref[F:
 \caption{Relationship between Military Expenditure and Distance to Moscow as well as V-Dem Index of a Country in 2021}
 \end{figure}
 
-Extending the descriptive visualization to the entire data set in form of a scatterplot (see \hyperref[F:2]{\color{blue}Figure 2, left panel}) again shows a first indication that the distance to Moscow - and, thus, Russia - may be affect a country's military expenditure, as the variance decreases if the distance increases. Yet, one can at the same time see the respective continent as well influencing the relationship. \textbf{!!!short part zu VDEM Panel- FOLGT NOCH!!!}.
+Extending the descriptive visualization to the entire data set in form of a scatter-plot (see \hyperref[F:2]{\color{blue}Figure 2, left panel}) again shows a first indication that the distance to Moscow - and, thus, Russia - may affect a country's military expenditure, as the variance decreases if the distance increases. Yet, one can at the same time see the respective continent as well influencing the relationship. Looking at the scatter-plot (see \hyperref[F:2]{\color{blue}Figure 2, right panel}) visualizing a possible linkage between military expenditures and the V-Dem index, as a proxy for sociological distance, a clear effect is not visible.  Instead, a correlation between the continent and the extend of democracy is observable. Thus, a sociological distance might be to some extend captured in a possible effect by the continents. These purely descriptive relationships are now to be verified within the framework of the bayesian model estimations carried out.  
 
 
-\textbf{!!Hier das neue Model 1 mit VDEM!!}
-\\
+\begin{table}[!htbp] \centering 
+  \caption{Estimates of $M_1$, Bayesian Regression for t = 2021} 
+  \label{T:2} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+\textit{Military Expenditure in \% of GDP} & Estimate & Est.Error & Q2.5 & Q97.5 \\ 
+\hline \\[-1.8ex] 
+Intercept & $3.259$ & $0.394$ & $2.475$ & $4.012$ \\ 
+Distance & $$-$0.0002$ & $0.0001$ & $$-$0.0003$ & $$-$0.0001$ \\ 
+Nato & $0.402$ & $0.357$ & $$-$0.283$ & $1.083$ \\ 
+BRICS & $$-$0.303$ & $0.545$ & $$-$1.391$ & $0.772$ \\ 
+OKVS & $$-$0.780$ & $0.503$ & $$-$1.722$ & $0.230$ \\ 
+America & $0.522$ & $0.356$ & $$-$0.166$ & $1.182$ \\ 
+Asia & $0.952$ & $0.274$ & $0.435$ & $1.507$ \\ 
+Europe & $$-$1.038$ & $0.421$ & $$-$1.850$ & $$-$0.228$ \\ 
+Pacific & $1.127$ & $0.617$ & $0.026$ & $2.330$ \\ 
+Direct Border & $$-$0.334$ & $0.345$ & $$-$0.974$ & $0.336$ \\ 
+Secondary Border & $$-$0.469$ & $0.310$ & $$-$1.078$ & $0.147$ \\ 
+V-Dem Index & $$-$0.488$ & $0.454$ & $$-$1.422$ & $0.435$ \\ 
+\hline \hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
 
-If we look at the second model
+
+\hyperref[T:2]{\color{blue}Table 2} shows the estimates of the first model, $M_1$, including all covariates. The estimated interval for distance ranges from -0.0003 and -0.0001, implying that a 100 km higher distance induces a decrease in military expenditure between 0.03 and 0.01 percentage points. The subsequent posterior distribution for the parameter distance is shown in \hyperref[F:3]{\color{blue}Figure 3} and highlights the exclusion of zero in the estimated interval. Moreover, it appears that a higher sociological distance to Russia (V-Dem rating 0.22) and a higher level of democracy may lead to lower military expenditures (estimated interval -1.422 \& 0.435). However, it is especially visible in the posterior distribution of the respective parameter, that there is no clear evidence for a negative effect. It is also visible that the estimated intervals for the continents include higher absolute values while also excluding zero (only exception is America). Interestingly, $M_1$ suggests a first indication of a negative effect for a direct (-0.974 \& 0.336 as interval) and secondary border (-1.078 \& 0.147).
+
+
+
+\begin{figure}[t]
+\center
+\label{F:3}
+\includegraphics[scale=0.25]{PosteriorPlot_Distance_Model1.png}
+\includegraphics[scale=0.25]{PosteriorPlot_VDem_Model1.png}
+\caption{Posterior Distributions $M_1$, Distance and V-Dem Index}
+\end{figure}
 
 \begin{figure}[h]
 \center
-\label{F:2}
-\includegraphics[scale=0.36]{PosteriorPlot_Distance_Model1.png}
-\caption{}
+\label{F:4}
+\includegraphics[scale=0.2]{PosteriorPlot_Alliances_Model1.png}
+\includegraphics[scale=0.2]{PosteriorPlot_Border_Model1.png}
+\includegraphics[scale=0.2]{PosteriorPlot_Continents_Model1.png}
+\caption{Posterior Distributions $M_1$, Alliances, Border and Continents}
 \end{figure}
 
 
+In comparison, $M_2$ - the model without the V-dem index -  indicates a stronger effect of distance (see \hyperref[Appendix Tables]{\color{blue}Appendix A}) with an estimated interval of \color{red} XXX and XXX \color{black}. Looking at the posterior distributions of the remaining parameters (see \hyperref[Appendix Figures]{\color{blue}Appendix B}), it is visible that excluding V-Dem influences mostly the posterior distribution derived for distance (visualized in \hyperref[F:5]{\color{blue}Figure 5}).
+
+\begin{figure}[h]
+\center
+\label{F:5}
+\includegraphics[scale=0.2]{PosteriorPlot_Distance_Model1.png}
+\includegraphics[scale=0.2]{PosteriorPlot_Distance_Model2.png}
+\includegraphics[scale=0.2]{PosteriorPlot_Distance_Model3.png}
+\caption{Posterior Distributions $M_1$ vs. $M_2$ vs. $M_3$, Distance}
+\end{figure}
+
+Additionally, \hyperref[F:5]{\color{blue}Figure 5} visualizes the effect of excluding all covariates reflected in the shift of the posterior distribution in $M_3$. 
+
+\textbf{Kurz M4, dann Model weights + final parameter}
+
 \clearpage
+Estimated model weights: 
+\begin{tabular}{llll}
+$M_1$& $M_2$ & $M_3$& $M_4$\\
+0.918 & 0.082 & 0.000 & 0.000 \\
+\end{tabular}
+
+
+\textbf{@Lucas: Falls Du Zeit hast magst, du vielleicht den model weights bzw. Averaging part einbauen - Diskussion kriege ich morgen noch hin}
 \section{Discussion}
 Points to touch: 
 \begin{enumerate}
-\item Robustness-checks
-\item Limitations\item Implications 
+\item Implications  was heißt das nun für den Parameter Distance etc. 
+\item Robustness-checks  Siehe anhang
+\item Limitations BMA, nicht alle timestamps, operationalisierung etc. 
 \end{enumerate}
 \clearpage
 \section{Conclusion}
@@ -209,4 +267,64 @@ In conclusion, our research underscores the importance of physical geography and
 \addcontentsline{toc}{section}{References}
 \bibliographystyle{apalike}
 \bibliography{TheKremlinEffect.bib}
+\clearpage
+\appendix
+\section{Further Tables}
+\label{Appendix Tables}
+- Table for Model 2 ergänzen in dem Doc war irgendwie nur M1 zweimal  \\
+
+Robustness Checks
+2005 - Estimates
+
+\begin{table}[!htbp] \centering 
+  \caption{} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & Estimate & Est.Error & Q2.5 & Q97.5 \\ 
+\hline \\[-1.8ex] 
+Intercept & $3.099$ & $0.377$ & $2.363$ & $3.831$ \\ 
+dist & $$-$0.0002$ & $0.0001$ & $$-$0.0003$ & $$-$0.0001$ \\ 
+Nato & $0.474$ & $0.344$ & $$-$0.210$ & $1.144$ \\ 
+BRICS & $0.046$ & $0.524$ & $$-$1.044$ & $1.018$ \\ 
+OKVS & $$-$0.685$ & $0.510$ & $$-$1.741$ & $0.274$ \\ 
+continentAmerica & $0.586$ & $0.370$ & $$-$0.123$ & $1.333$ \\ 
+continentAsia & $1.057$ & $0.253$ & $0.583$ & $1.560$ \\ 
+continentEurope & $$-$0.694$ & $0.419$ & $$-$1.510$ & $0.133$ \\ 
+continentPacific & $0.914$ & $0.557$ & $$-$0.183$ & $2.008$ \\ 
+DirectBorder & $$-$0.534$ & $0.314$ & $$-$1.142$ & $0.078$ \\ 
+SecondaryBorder & $$-$0.503$ & $0.287$ & $$-$1.038$ & $0.087$ \\ 
+electdem\_vdem\_owid & $$-$0.756$ & $0.445$ & $$-$1.627$ & $0.104$ \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+
+
+2015 - Estimates
+
+\begin{table}[!htbp] \centering 
+  \caption{} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & Estimate & Est.Error & Q2.5 & Q97.5 \\ 
+\hline \\[-1.8ex] 
+Intercept & $3.460$ & $0.477$ & $2.523$ & $4.401$ \\ 
+dist & $$-$0.0002$ & $0.0001$ & $$-$0.0003$ & $$-$0.0001$ \\ 
+Nato & $0.220$ & $0.417$ & $$-$0.561$ & $1.008$ \\ 
+BRICS & $$-$0.218$ & $0.576$ & $$-$1.412$ & $0.913$ \\ 
+OKVS & $$-$0.539$ & $0.599$ & $$-$1.680$ & $0.618$ \\ 
+continentAmerica & $0.704$ & $0.402$ & $$-$0.058$ & $1.515$ \\ 
+continentAsia & $1.408$ & $0.339$ & $0.746$ & $2.079$ \\ 
+continentEurope & $$-$0.917$ & $0.462$ & $$-$1.811$ & $0.021$ \\ 
+continentPacific & $1.016$ & $0.669$ & $$-$0.267$ & $2.316$ \\ 
+DirectBorder & $$-$0.307$ & $0.382$ & $$-$1.022$ & $0.438$ \\ 
+SecondaryBorder & $$-$0.768$ & $0.350$ & $$-$1.501$ & $$-$0.085$ \\ 
+electdem\_vdem\_owid & $$-$0.983$ & $0.530$ & $$-$2.004$ & $0.097$ \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
+\section{Further Figures}
 \end{document}
