@@ -145,18 +145,18 @@ Neutrality & 151   &  0.01 &   0.11 & 0.00 & 1.00 \\     \hline\hline
 In order to draw inference, but also reflect existing model uncertainty, we use Bayesian Model Averaging (BMA) as our approach to tackle the underlying research question.  Instead of just estimating one model $\hat{M}$ and updating our prior beliefs $p(\theta)$ to posterior beliefs $p(\theta \vert data)$, we estimate several models $M_{i}$ incorporating different distance measures and covariates. Afterwards, we take the combined parameter distribution, weighted by the posterior model probability of all candidate models to draw conclusions (i.e. BMA; following \citealp{jeffreys1939} and \citealp{jevons1874}). The used posterior model probability reflects the plausibility of a model given the data, i.e. $p(M_{i} \vert data)$.
 \clearpage 
 Applied to our research question, namely whether distance to Russia (or Moskow) is a predictor of military expenditure, this implies that we first have to define the candidate models, reflecting our uncertainty about the different layers of distance. Given the heterogeneity of data availability, we first estimate the models for 2021 and, afterwards, use different time settings as robustness-checks. Thus, the model specifications are as follows: 
-\begin{align*}
- M_1 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Distance} + \textrm{V-Dem Index} + \textrm{Direct Border} \\ +  \textrm{ Secondary Border} +  \textrm{NATO} + \textrm{OKVS} + \textrm{BRICS} + \textrm{Neutrality} 
-\end{align*}\\[-3.5em]
-\begin{align*}
- M_2 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Distance} + \textrm{Direct Border} + \textrm{Secondary Border} \\ + \textrm{ NATO} + \textrm{OKVS} + \textrm{BRICS} + \textrm{Neutrality} 
-\end{align*}\\[-3.5em]
-\begin{align*}
-M_3 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Distance}  
-\end{align*}\\[-3.5em]
-\begin{align*}
-  M_4 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Direct Border} + \textrm{Secondary Border} \\ + \textrm{ NATO} + \textrm{OKVS} + \textrm{BRICS} + \textrm{Neutrality} 
-\end{align*}
+\begin{align}
+ M_1 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Distance} + \textrm{V-Dem Index} + \textrm{Direct Border} \\ +  \textrm{ Secondary Border} +  \textrm{NATO} + \textrm{OKVS} + \textrm{BRICS} + \textrm{Neutrality} \nonumber
+\end{align}\\[-3.1em]
+\begin{align}
+ M_2 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Distance} + \textrm{Direct Border} + \textrm{Secondary Border} \\ + \textrm{ NATO} + \textrm{OKVS} + \textrm{BRICS} + \textrm{Neutrality} \nonumber
+\end{align}\\[-3.1em]
+\begin{align}
+M_3 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Distance} 
+\end{align}\\[-3.1em]
+\begin{align}
+  M_4 \coloneqq \textrm{2021 Military Expenditure} \sim \textrm{Direct Border} + \textrm{Secondary Border} \\ + \textrm{ NATO} + \textrm{OKVS} + \textrm{BRICS} + \textrm{Neutrality} \nonumber
+\end{align}
 We fit these Bayesian regression models using a Markov Chain Monte Carlo (MCMC) algorithm to obtain posterior distributions for the model parameters. The MCMC sampling includes two chains and a total of 1000 iterations, with the first 500 iterations discarded as burn-in period to ensure convergence. In order to be non-influential, allowing the data to have a dominant role in the estimation of model parameters, we use weakly uninformative priors, namely a normal distribution with mean 0 and standard deviation 1 for the regression coefficients and an inverse gamma distribution with shape parameter 2 and scale parameter 1 for the error's term standard deviation.
 \begin{figure}[h]
 \center
@@ -272,7 +272,6 @@ While we see strong evidence for the hypothesis of the physical distance layer o
 \clearpage
 \subsection{Robustness \& Limitations}
 \begin{enumerate}
-\item Implications  was heißt das nun für den Parameter Distance etc. 
 \item Robustness-checks  Siehe anhang
 \item Limitations BMA, nicht alle timestamps, operationalisierung etc. 
 \end{enumerate}
