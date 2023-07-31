@@ -215,7 +215,7 @@ V-Dem Index & $$-$0.488$ & $0.454$ & $$-$1.422$ & $0.435$ \\
 \end{figure}
 
 
-In comparison, $M_2$ - the model without the V-dem index -  indicates a stronger effect of distance (see \hyperref[Appendix Tables]{\color{blue}Appendix A}) with an estimated interval of \color{red} XXX and XXX \color{black}. Looking at the posterior distributions of the remaining parameters (see \hyperref[Appendix Figures]{\color{blue}Appendix B}), it is visible that excluding V-Dem influences mostly the posterior distribution derived for distance (visualized in \hyperref[F:5]{\color{blue}Figure 5}).
+In comparison, $M_2$ - the model without the V-dem index -  indicates a similar but less certain effect (see \hyperref[Appendix Tables]{\color{blue}Appendix A}) with an estimated interval of $-0.0003051307$ and $-0.0001108174$. Looking at the posterior distributions of the remaining parameters (see \hyperref[Appendix Figures]{\color{blue}Appendix B}), it is visible that excluding V-Dem influences mostly the posterior distribution derived for distance (visualized in \hyperref[F:5]{\color{blue}Figure 5}).
 
 \begin{figure}[h]
 \center
@@ -226,19 +226,23 @@ In comparison, $M_2$ - the model without the V-dem index -  indicates a stronger
 \caption{Posterior Distributions $M_1$ vs. $M_2$ vs. $M_3$, Distance}
 \end{figure}
 
-Additionally, \hyperref[F:5]{\color{blue}Figure 5} visualizes the effect of excluding all covariates reflected in the shift of the posterior distribution in $M_3$. 
+Additionally, \hyperref[F:5]{\color{blue}Figure 5} visualizes the effect of excluding all covariates reflected in the shift of the posterior distribution in $M_3$. To further extend our analysis, we computed a fourth model which excludes the distance covariates but uses everything else. The estimates of this model can be found in \hyperref[F:6]{\color{blue}Figure 6}. The majority of covariates show similar posterior distributions - e.g. the border covariates or the estimates related to the alliances - however the now missing effect captured by distance is being absorbed by some of the estimates related to the continents. The most prominent example can be found in the distribution for the continent covariate $pacific$, which now shows a negative effect instead of the original positive one.
+
+Using the $WAIC$ criterion, we computed model weights as the a setup of a possible Bayesian Model Averaging (BMA) approach. The computed weights can be found below in \hyperref[T:3]{\color{blue}Table 3}. 
 
 \textbf{Kurz M4, dann Model weights + final parameter}
 
-\clearpage
-Estimated model weights: 
+\begin{table}[!htbp] \centering 
+  \caption{Estimated Model Weights} 
+  \label{T:3} 
 \begin{tabular}{llll}
 $M_1$& $M_2$ & $M_3$& $M_4$\\
 0.918 & 0.082 & 0.000 & 0.000 \\
 \end{tabular}
+\end{table}
 
+We can see that the majority of the weight - more than 90\% - falls on the estimates/distributions of model 1. Models 3 and 4 have few to none influence on the resulting weight of the effects. 
 
-\textbf{@Lucas: Falls Du Zeit hast magst, du vielleicht den model weights bzw. Averaging part einbauen - Diskussion kriege ich morgen noch hin}
 \section{Discussion}
 Points to touch: 
 \begin{enumerate}
@@ -271,7 +275,29 @@ In conclusion, our research underscores the importance of physical geography and
 \appendix
 \section{Further Tables}
 \label{Appendix Tables}
-- Table for Model 2 ergänzen in dem Doc war irgendwie nur M1 zweimal  \\
+
+\begin{table}[!htbp] \centering 
+  \caption{Estimates of $M_2$, Bayesian Regression for t = 2021} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+\textit{Military Expenditure in \% of GDP} & Estimate & Est.Error & Q2.5 & Q97.5 \\ 
+\hline \\[-1.8ex] 
+Intercept & $3.083$ & $0.372$ & $2.352$ & $3.805$ \\ 
+dist & $-0.0002$ & $0.0001$ & $-0.0003$ & $-0.0001$ \\ 
+Nato & $0.361$ & $0.339$ & $-0.315$ & $1.038$ \\ 
+BRICS & $-0.285$ & $0.511$ & $-1.237$ & $0.673$ \\ 
+OKVS & $-0.759$ & $0.501$ & $-1.723$ & $0.262$ \\ 
+continentAmerica & $0.436$ & $0.345$ & $-0.226$ & $1.084$ \\ 
+continentAsia & $1.013$ & $0.276$ & $0.467$ & $1.605$ \\ 
+continentEurope & $-1.158$ & $0.376$ & $-1.921$ & $-0.416$ \\ 
+continentPacific & $1.089$ & $0.570$ & $-0.013$ & $2.140$ \\ 
+DirectBorder & $-0.366$ & $0.323$ & $-0.966$ & $0.263$ \\ 
+SecondaryBorder & $-0.519$ & $0.297$ & $-1.101$ & $0.048$ \\ 
+\hline \hline \\[-1.8ex] 
+\end{tabular} 
+\end{table} 
 
 Robustness Checks
 2005 - Estimates
@@ -327,4 +353,13 @@ electdem\_vdem\_owid & $$-$0.983$ & $0.530$ & $$-$2.004$ & $0.097$ \\
 \end{tabular} 
 \end{table} 
 \section{Further Figures}
+
+\begin{figure}[h]
+\center
+\label{F:6}
+\includegraphics[scale=0.2]{PosteriorPlot_Everything_Model4NoDistnace.png}
+
+\caption{Posterior Distributions of $M_4$}
+\end{figure}
+
 \end{document}
