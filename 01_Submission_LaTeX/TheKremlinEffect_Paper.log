@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  31 JUL 2023 09:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  31 JUL 2023 09:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -564,7 +564,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
-<Map1.pdf, id=144, 316.85176pt x 306.1277pt>
+<Map1.pdf, id=142, 316.85176pt x 306.1277pt>
 File: Map1.pdf Graphic file (type pdf)
 <use Map1.pdf>
 Package pdftex.def Info: Map1.pdf  used on input line 159.
@@ -572,12 +572,12 @@ Package pdftex.def Info: Map1.pdf  used on input line 159.
 [4
 
  <./Map1.pdf>]
-<Plot2.pdf, id=159, 597.23125pt x 420.57124pt>
+<Plot2.pdf, id=157, 597.23125pt x 420.57124pt>
 File: Plot2.pdf Graphic file (type pdf)
 <use Plot2.pdf>
 Package pdftex.def Info: Plot2.pdf  used on input line 169.
 (pdftex.def)             Requested size: 215.00308pt x 151.40553pt.
-<Plot3.pdf, id=160, 597.23125pt x 420.57124pt>
+<Plot3.pdf, id=158, 597.23125pt x 420.57124pt>
 File: Plot3.pdf Graphic file (type pdf)
 <use Plot3.pdf>
 Package pdftex.def Info: Plot3.pdf  used on input line 170.
@@ -585,31 +585,31 @@ Package pdftex.def Info: Plot3.pdf  used on input line 170.
  [5
 
  <./Plot2.pdf> <./Plot3.pdf>]
-<PosteriorPlot_Distance_Model1.png, id=183, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Distance_Model1.png, id=181, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Distance_Model1.png Graphic file (type png)
 <use PosteriorPlot_Distance_Model1.png>
 Package pdftex.def Info: PosteriorPlot_Distance_Model1.png  used on input line 
 209.
 (pdftex.def)             Requested size: 164.30092pt x 111.22777pt.
-<PosteriorPlot_VDem_Model1.png, id=184, 657.2053pt x 444.91219pt>
+<PosteriorPlot_VDem_Model1.png, id=182, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_VDem_Model1.png Graphic file (type png)
 <use PosteriorPlot_VDem_Model1.png>
 Package pdftex.def Info: PosteriorPlot_VDem_Model1.png  used on input line 210.
 
 (pdftex.def)             Requested size: 164.30092pt x 111.22777pt.
-<PosteriorPlot_Alliances_Model1.png, id=185, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Alliances_Model1.png, id=183, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Alliances_Model1.png Graphic file (type png)
 <use PosteriorPlot_Alliances_Model1.png>
 Package pdftex.def Info: PosteriorPlot_Alliances_Model1.png  used on input line
  217.
 (pdftex.def)             Requested size: 131.43872pt x 88.98085pt.
-<PosteriorPlot_Border_Model1.png, id=186, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Border_Model1.png, id=184, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Border_Model1.png Graphic file (type png)
 <use PosteriorPlot_Border_Model1.png>
 Package pdftex.def Info: PosteriorPlot_Border_Model1.png  used on input line 21
 8.
 (pdftex.def)             Requested size: 131.43872pt x 88.98085pt.
-<PosteriorPlot_Continents_Model1.png, id=187, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Continents_Model1.png, id=185, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Continents_Model1.png Graphic file (type png)
 <use PosteriorPlot_Continents_Model1.png>
 Package pdftex.def Info: PosteriorPlot_Continents_Model1.png  used on input lin
@@ -625,13 +625,13 @@ File: PosteriorPlot_Distance_Model1.png Graphic file (type png)
 Package pdftex.def Info: PosteriorPlot_Distance_Model1.png  used on input line 
 229.
 (pdftex.def)             Requested size: 131.43872pt x 88.98085pt.
-<PosteriorPlot_Distance_Model2.png, id=189, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Distance_Model2.png, id=187, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Distance_Model2.png Graphic file (type png)
 <use PosteriorPlot_Distance_Model2.png>
 Package pdftex.def Info: PosteriorPlot_Distance_Model2.png  used on input line 
 230.
 (pdftex.def)             Requested size: 131.43872pt x 88.98085pt.
-<PosteriorPlot_Distance_Model3.png, id=190, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Distance_Model3.png, id=188, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Distance_Model3.png Graphic file (type png)
 <use PosteriorPlot_Distance_Model3.png>
 Package pdftex.def Info: PosteriorPlot_Distance_Model3.png  used on input line 
@@ -641,37 +641,41 @@ Package pdftex.def Info: PosteriorPlot_Distance_Model3.png  used on input line
 osteriorPlot_Alliances_Model1.png> <./PosteriorPlot_Border_Model1.png> <./Poste
 riorPlot_Continents_Model1.png> <./PosteriorPlot_Distance_Model2.png> <./Poster
 iorPlot_Distance_Model3.png>]
-<PosteriorPlot_Everything_Model4NoDistnace.png, id=207, 657.2053pt x 444.91219p
+<PosteriorPlot_Everything_Model4NoDistnace.png, id=205, 657.2053pt x 444.91219p
 t>
 File: PosteriorPlot_Everything_Model4NoDistnace.png Graphic file (type png)
 <use PosteriorPlot_Everything_Model4NoDistnace.png>
 Package pdftex.def Info: PosteriorPlot_Everything_Model4NoDistnace.png  used on
  input line 240.
 (pdftex.def)             Requested size: 328.60184pt x 222.45554pt.
- [7 <./PosteriorPlot_Everything_Model4NoDistnace.png>] [8] [9
+ [7 <./PosteriorPlot_Everything_Model4NoDistnace.png>] [8
+
+] [9
+
+] [10
 
 ] (TheKremlinEffect_Paper.bbl) [2
 
 ] [3
 
 ] [4]
-<PosteriorPlot_Alliances_Model2.png, id=249, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Alliances_Model2.png, id=251, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Alliances_Model2.png Graphic file (type png)
 <use PosteriorPlot_Alliances_Model2.png>
 Package pdftex.def Info: PosteriorPlot_Alliances_Model2.png  used on input line
- 376.
+ 375.
 (pdftex.def)             Requested size: 197.1631pt x 133.47467pt.
-<PosteriorPlot_Border_Model2.png, id=250, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Border_Model2.png, id=252, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Border_Model2.png Graphic file (type png)
 <use PosteriorPlot_Border_Model2.png>
 Package pdftex.def Info: PosteriorPlot_Border_Model2.png  used on input line 38
-3.
+2.
 (pdftex.def)             Requested size: 197.1631pt x 133.47467pt.
-<PosteriorPlot_Continents_Model2.png, id=251, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Continents_Model2.png, id=253, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Continents_Model2.png Graphic file (type png)
 <use PosteriorPlot_Continents_Model2.png>
 Package pdftex.def Info: PosteriorPlot_Continents_Model2.png  used on input lin
-e 390.
+e 389.
 (pdftex.def)             Requested size: 197.1631pt x 133.47467pt.
  [5
 
@@ -688,13 +692,13 @@ Package rerunfilecheck Info: File `TheKremlinEffect_Paper.out' has not changed.
 (rerunfilecheck)             Checksum: C7DF89E1331ABF9F591CCAC16EBD7FE1;1218.
  ) 
 Here is how much of TeX's memory you used:
- 13998 strings out of 476331
- 228987 string characters out of 5788237
+ 13999 strings out of 476331
+ 228994 string characters out of 5788237
  1871660 words of memory out of 5000000
  34194 multiletter control sequences out of 15000+600000
  518230 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,1470b,549s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,1470b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmmi12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -709,9 +713,9 @@ n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
 sers/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.p
 fb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmtt12.pfb>
-Output written on TheKremlinEffect_Paper.pdf (15 pages, 458339 bytes).
+Output written on TheKremlinEffect_Paper.pdf (16 pages, 458573 bytes).
 PDF statistics:
- 327 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
+ 329 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
  164 words of extra memory for PDF output out of 10000 (max. 10000000)
 
