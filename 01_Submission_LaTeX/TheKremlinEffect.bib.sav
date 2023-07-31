@@ -114,7 +114,7 @@
 }
 
 @Article{watanabe2010,
-  author  = {Watanabe, Sumio and Opper, Manfred},
+  author  = {Watanabe, Sumio},
   journal = {Journal of machine learning research},
   title   = {Asymptotic equivalence of Bayes cross validation and widely applicable information criterion in singular learning theory.},
   year    = {2010},
