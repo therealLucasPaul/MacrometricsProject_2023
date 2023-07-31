@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  30 JUL 2023 22:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  31 JUL 2023 07:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -430,6 +430,12 @@ File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 
 LaTeX Warning: Label `' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `F:6' multiply defined.
+
 )
 \openout1 = `TheKremlinEffect_Paper.aux'.
 
@@ -628,23 +634,34 @@ File: PosteriorPlot_Distance_Model3.png Graphic file (type png)
 Package pdftex.def Info: PosteriorPlot_Distance_Model3.png  used on input line 
 225.
 (pdftex.def)             Requested size: 131.43872pt x 88.98085pt.
+<PosteriorPlot_Everything_Model4NoDistnace.png, id=184, 657.2053pt x 444.91219p
+t>
+File: PosteriorPlot_Everything_Model4NoDistnace.png Graphic file (type png)
+<use PosteriorPlot_Everything_Model4NoDistnace.png>
+Package pdftex.def Info: PosteriorPlot_Everything_Model4NoDistnace.png  used on
+ input line 234.
+(pdftex.def)             Requested size: 328.60184pt x 222.45554pt.
 [6 <./PosteriorPlot_Distance_Model1.png> <./PosteriorPlot_VDem_Model1.png> <./P
 osteriorPlot_Alliances_Model1.png> <./PosteriorPlot_Border_Model1.png> <./Poste
 riorPlot_Continents_Model1.png> <./PosteriorPlot_Distance_Model2.png> <./Poster
-iorPlot_Distance_Model3.png>] [7
-
-] [8
+iorPlot_Distance_Model3.png>] [7 <./PosteriorPlot_Everything_Model4NoDistnace.p
+ng>] [8
 
 ] (TheKremlinEffect_Paper.bbl) [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+File: PosteriorPlot_Everything_Model4NoDistnace.png Graphic file (type png)
+<use PosteriorPlot_Everything_Model4NoDistnace.png>
+Package pdftex.def Info: PosteriorPlot_Everything_Model4NoDistnace.png  used on
+ input line 367.
+(pdftex.def)             Requested size: 131.43872pt x 88.98085pt.
 
- []
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3
 
-] (TheKremlinEffect_Paper.aux)
+] [4] (TheKremlinEffect_Paper.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -656,10 +673,10 @@ Package rerunfilecheck Info: File `TheKremlinEffect_Paper.out' has not changed.
 (rerunfilecheck)             Checksum: 2C5E13016C83CBDCA1191CA839BE724C;913.
  ) 
 Here is how much of TeX's memory you used:
- 13947 strings out of 476331
- 227523 string characters out of 5788237
- 1868660 words of memory out of 5000000
- 34159 multiletter control sequences out of 15000+600000
+ 13961 strings out of 476331
+ 227952 string characters out of 5788237
+ 1872660 words of memory out of 5000000
+ 34167 multiletter control sequences out of 15000+600000
  518230 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,76p,1470b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -677,9 +694,9 @@ n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
 sers/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.p
 fb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmtt12.pfb>
-Output written on TheKremlinEffect_Paper.pdf (12 pages, 414684 bytes).
+Output written on TheKremlinEffect_Paper.pdf (13 pages, 427351 bytes).
 PDF statistics:
- 284 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 297 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -226,11 +226,18 @@ In comparison, $M_2$ - the model without the V-dem index -  indicates a similar 
 \caption{Posterior Distributions $M_1$ vs. $M_2$ vs. $M_3$, Distance}
 \end{figure}
 
-Additionally, \hyperref[F:5]{\color{blue}Figure 5} visualizes the effect of excluding all covariates reflected in the shift of the posterior distribution in $M_3$. To further extend our analysis, we computed a fourth model which excludes the distance covariates but uses everything else. The estimates of this model can be found in \hyperref[F:6]{\color{blue}Figure 6}. The majority of covariates show similar posterior distributions - e.g. the border covariates or the estimates related to the alliances - however the now missing effect captured by distance is being absorbed by some of the estimates related to the continents. The most prominent example can be found in the distribution for the continent covariate $pacific$, which now shows a negative effect instead of the original positive one.
+Additionally, \hyperref[F:5]{\color{blue}Figure 5} visualizes the effect of excluding all covariates reflected in the shift of the posterior distribution in $M_3$. To further extend our analysis, we computed a fourth model $M_4$ which only excludes the distance covariates . The estimates of this model can be found in \hyperref[F:6]{\color{blue}Figure 6}. The majority of covariates show similar posterior distributions - e.g. the border covariates or the estimates related to the alliances - however, the missing effect of the parameter distance is being absorbed by some of the estimates related to the continents. The most prominent example can be found in the distribution for the continent covariate pacific, which now shows a negative effect instead of the original positive one.
 
-Using the $WAIC$ criterion, we computed model weights as the a setup of a possible Bayesian Model Averaging (BMA) approach. The computed weights can be found below in \hyperref[T:3]{\color{blue}Table 3}. 
+\begin{figure}[h]
+\center
+\label{F:6}
+\includegraphics[scale=0.5]{PosteriorPlot_Everything_Model4NoDistnace.png}
+\caption{Posterior Distributions $M_4$, every covariate}
+\end{figure}
 
-\textbf{Kurz M4, dann Model weights + final parameter}
+
+Using the \textit{WAIC} criterion, we computed model weights as the a setup of a possible Bayesian Model Averaging (BMA) approach. The computed weights can be found below in \hyperref[T:3]{\color{blue}Table 3}. 
+
 
 \begin{table}[!htbp] \centering 
   \caption{Estimated Model Weights} 
