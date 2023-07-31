@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  31 JUL 2023 10:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  31 JUL 2023 10:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -426,20 +426,7 @@ ex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count294
 \l__pdf_internal_box=\box55
-) (TheKremlinEffect_Paper.aux
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `F:B1' multiply defined.
-
-
-LaTeX Warning: Label `F:B1' multiply defined.
-
-)
+) (TheKremlinEffect_Paper.aux)
 \openout1 = `TheKremlinEffect_Paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
@@ -617,87 +604,81 @@ File: PosteriorPlot_Continents_Model1.png Graphic file (type png)
 Package pdftex.def Info: PosteriorPlot_Continents_Model1.png  used on input lin
 e 224.
 (pdftex.def)             Requested size: 131.43872pt x 88.98085pt.
-
-
-LaTeX Warning: Hyper reference `Appendix Figures' on page 6 undefined on input 
-line 229.
-
 File: PosteriorPlot_Distance_Model1.png Graphic file (type png)
 <use PosteriorPlot_Distance_Model1.png>
 Package pdftex.def Info: PosteriorPlot_Distance_Model1.png  used on input line 
 234.
 (pdftex.def)             Requested size: 131.43872pt x 88.98085pt.
-<PosteriorPlot_Distance_Model2.png, id=193, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Distance_Model2.png, id=194, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Distance_Model2.png Graphic file (type png)
 <use PosteriorPlot_Distance_Model2.png>
 Package pdftex.def Info: PosteriorPlot_Distance_Model2.png  used on input line 
 235.
 (pdftex.def)             Requested size: 131.43872pt x 88.98085pt.
-<PosteriorPlot_Distance_Model3.png, id=194, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Distance_Model3.png, id=195, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Distance_Model3.png Graphic file (type png)
 <use PosteriorPlot_Distance_Model3.png>
 Package pdftex.def Info: PosteriorPlot_Distance_Model3.png  used on input line 
 236.
 (pdftex.def)             Requested size: 131.43872pt x 88.98085pt.
-[6 <./PosteriorPlot_Distance_Model1.png> <./PosteriorPlot_VDem_Model1.png> <./P
-osteriorPlot_Alliances_Model1.png> <./PosteriorPlot_Border_Model1.png> <./Poste
-riorPlot_Continents_Model1.png> <./PosteriorPlot_Distance_Model2.png> <./Poster
-iorPlot_Distance_Model3.png>]
-<PosteriorPlot_Everything_Model4NoDistnace.png, id=211, 657.2053pt x 444.91219p
+ [6 <./PosteriorPlot_Distance_Model1.png> <./PosteriorPlot_VDem_Model1.png> <./
+PosteriorPlot_Alliances_Model1.png> <./PosteriorPlot_Border_Model1.png> <./Post
+eriorPlot_Continents_Model1.png> <./PosteriorPlot_Distance_Model2.png> <./Poste
+riorPlot_Distance_Model3.png>]
+<PosteriorPlot_Everything_Model4NoDistnace.png, id=212, 657.2053pt x 444.91219p
 t>
 File: PosteriorPlot_Everything_Model4NoDistnace.png Graphic file (type png)
 <use PosteriorPlot_Everything_Model4NoDistnace.png>
 Package pdftex.def Info: PosteriorPlot_Everything_Model4NoDistnace.png  used on
  input line 245.
 (pdftex.def)             Requested size: 328.60184pt x 222.45554pt.
- [7 <./PosteriorPlot_Everything_Model4NoDistnace.png>] [8
+
+[7 <./PosteriorPlot_Everything_Model4NoDistnace.png>] [8
 
 ] [9
 
 ] [10
 
-] (TheKremlinEffect_Paper.bbl) [3
+]
+(TheKremlinEffect_Paper.bbl) [3
 
 ] [4
 
 ] [5]
-<PosteriorPlot_Alliances_Model2.png, id=262, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Alliances_Model2.png, id=263, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Alliances_Model2.png Graphic file (type png)
 <use PosteriorPlot_Alliances_Model2.png>
 Package pdftex.def Info: PosteriorPlot_Alliances_Model2.png  used on input line
- 386.
+ 385.
 (pdftex.def)             Requested size: 197.1631pt x 133.47467pt.
-<PosteriorPlot_Border_Model2.png, id=263, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Border_Model2.png, id=264, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Border_Model2.png Graphic file (type png)
 <use PosteriorPlot_Border_Model2.png>
 Package pdftex.def Info: PosteriorPlot_Border_Model2.png  used on input line 39
-3.
+2.
 (pdftex.def)             Requested size: 197.1631pt x 133.47467pt.
-<PosteriorPlot_Continents_Model2.png, id=264, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Continents_Model2.png, id=265, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Continents_Model2.png Graphic file (type png)
 <use PosteriorPlot_Continents_Model2.png>
 Package pdftex.def Info: PosteriorPlot_Continents_Model2.png  used on input lin
-e 400.
+e 399.
 (pdftex.def)             Requested size: 197.1631pt x 133.47467pt.
  [6
 
  <./PosteriorPlot_Alliances_Model2.png> <./PosteriorPlot_Border_Model2.png> <./
 PosteriorPlot_Continents_Model2.png>] (TheKremlinEffect_Paper.aux)
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `TheKremlinEffect_Paper.out' has not changed.
 
 (rerunfilecheck)             Checksum: C7DF89E1331ABF9F591CCAC16EBD7FE1;1218.
  ) 
 Here is how much of TeX's memory you used:
- 14005 strings out of 476331
- 229059 string characters out of 5788237
+ 14009 strings out of 476331
+ 229081 string characters out of 5788237
  1871660 words of memory out of 5000000
- 34196 multiletter control sequences out of 15000+600000
+ 34200 multiletter control sequences out of 15000+600000
  519184 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,76p,1470b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -717,9 +698,9 @@ fb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmti10.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmti12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmtt12.pfb>
-Output written on TheKremlinEffect_Paper.pdf (17 pages, 496922 bytes).
+Output written on TheKremlinEffect_Paper.pdf (17 pages, 497517 bytes).
 PDF statistics:
- 348 PDF objects out of 1000 (max. 8388607)
+ 349 PDF objects out of 1000 (max. 8388607)
  58 named destinations out of 1000 (max. 500000)
  164 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -80,7 +80,7 @@ by\\ \vspace{3mm}
 \pagenumbering{roman}
 \thispagestyle{empty}
 \begin{abstract}
-\textit{We present a study on how the distance of a country’s capital to Moscow affects its military spending. To tackle the research question, we combine different datasets from various sources, such as the SIPRI Military Expenditure Database, the GeoDist database, and the Electoral Democracy Index. A Bayesian Model Averaging (BMA) approach is used to account for model uncertainty and estimate several models with different distance measures and covariates. Our results identify a in terms of posterior model probability superior model and show that the capital distance to Moscow has a significant negative effect on military expenditures, implying that countries closer to Russia perceive a higher threat and allocate more resources to defense. Additionally, it's observable that continents play a pivotal role in explaining the variation in military expenditures. Specifically a general underestimation of possible threats in Europe is indicated. The effects of border degree and democracy index are mixed and remain to some extend uncertain.} 
+\textit{We present a study on how the distance of a country’s capital to Moscow affects its military spending. To tackle the research question, we combine different datasets from various sources, such as the SIPRI Military Expenditure Database, the GeoDist database, and the Electoral Democracy Index. A Bayesian Model Averaging (BMA) approach is used to account for model uncertainty and estimate several models with different distance measures and covariates. Our results identify a in terms of posterior model probability superior model and show that the capital distance to Moscow has a significant negative effect on military expenditures, implying that countries closer to Russia perceive a higher threat and allocate more resources to defense. Additionally, it's observable that continents play a pivotal role in explaining the variation in military expenditures. Specifically a general underestimation of possible threats in Europe is indicated. The effects of border degree and democracy index as additional layers of distance are mixed and remain to some extend uncertain.} 
 \end{abstract}
 \clearpage
 \thispagestyle{plain}
@@ -268,8 +268,7 @@ The findings in the selected model imply that \textit{ceteris paribus} a capital
 Additionally, our findings strongly reinforce the pertinent contribution of continents in explaining the variance of military expenditures. No matter in which model, the posterior distribution of Asia reveals a significant positive effect capturing the increasing tensions in Asia involving China. However, it is also visible in every posterior distribution that Europe's military expenditure are below average. Including the effect of distance to Russia shifts the probability mass further into the negative and increases the certainty of the estimate, indicating a collective underestimation of the threat emanating from Russia.\footnote{For our robustness-checks we looked at different time stamps after 2000, and could interestingly see this effect increasing, even after the annexation of Crimea - see e.g. 2005 vs. 2015 in \hyperref[Appendix Tables]{\color{blue}Appendix A}.}
 
 
-While we see strong evidence for the hypothesis of the physical distance layer of distance, the results for the degree of border and sociological distance in form of the V-Dem index are mixed. One the one hand, the inclusions raises the prediction quality as 
-
+While we see strong evidence for the hypothesis of the physical distance layer of distance, the results for the degree of border and sociological distance in form of the V-Dem index are mixed. One the one hand, the inclusions raises the prediction quality as e.g. visible in model weights, while it's also observable that the posterior distributions always include zero and, hence, should be considered a non-significant. The amount of probability mass in the realm of negative for direct and secondary border is given the descriptive data to some extend surprising, raising questions w.r.t. the indirect conditional independence of the introduced further layers of distance. It's likely that the introduced measurements for possible allies are not able to fully capture country specific determinants. 
 \clearpage
 \subsection{Robustness \& Limitations}
 \begin{enumerate}
@@ -305,7 +304,7 @@ In conclusion, our research underscores the importance of physical geography and
 
 \begin{table}[!htbp] \centering 
   \caption{Estimates of $M_2$, Bayesian Regression for t = 2021} 
-  \label{} 
+  \label{A1} 
 \begin{tabular}{@{\extracolsep{5pt}} ccccc} 
 \\[-1.8ex]\hline 
 \hline \\[-1.8ex] 
@@ -331,7 +330,7 @@ Secondary Border & $-0.519$ & $0.297$ & $-1.101$ & $0.048$ \\
 
 \begin{table}[!htbp] \centering 
   \caption{Estimates of $M_1$, Bayesian Regression for t = 2005} 
-  \label{} 
+  \label{A2} 
 \begin{tabular}{@{\extracolsep{5pt}} ccccc} 
 \\[-1.8ex]\hline 
 \hline \\[-1.8ex] 
@@ -355,7 +354,7 @@ V-Dem Index & $$-$0.756$ & $0.445$ & $$-$1.627$ & $0.104$ \\
 \vfill 
 \begin{table}[t] \centering 
   \caption{Estimates of $M_1$, Bayesian Regression for t = 2015} 
-  \label{} 
+  \label{A3} 
 \begin{tabular}{@{\extracolsep{5pt}} ccccc} 
 \\[-1.8ex]\hline 
 \hline \\[-1.8ex] 
@@ -379,7 +378,7 @@ V-Dem Index & $-0.983$ & $0.530$ & $$-$2.004$ & $0.097$ \\
 \vfill
  \clearpage
 \section{Further Figures}
-
+\label{Appendix Figures}
 \begin{figure}[h]
 \center
 \label{F:B1}
@@ -389,14 +388,14 @@ V-Dem Index & $-0.983$ & $0.530$ & $$-$2.004$ & $0.097$ \\
 \vfill
 \begin{figure}[h]
 \center
-\label{F:B1}
+\label{F:B2}
 \includegraphics[scale=0.3]{PosteriorPlot_Border_Model2.png}
 \caption{Posterior Distributions $M_2$, Border}
 \end{figure}
 \vfill
 \begin{figure}[h]
 \center
-\label{F:B1}
+\label{F:B3}
 \includegraphics[scale=0.3]{PosteriorPlot_Continents_Model2.png}
 \caption{Posterior Distributions $M_2$, Continents}
 \end{figure}
