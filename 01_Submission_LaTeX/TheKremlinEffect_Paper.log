@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  31 JUL 2023 08:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  31 JUL 2023 09:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -442,24 +442,24 @@ LaTeX Warning: Label `F:B1' multiply defined.
 )
 \openout1 = `TheKremlinEffect_Paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -524,15 +524,15 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 43.
+Package hyperref Info: Link coloring ON on input line 49.
  (TheKremlinEffect_Paper.out) (TheKremlinEffect_Paper.out)
 \@outlinefile=\write3
 \openout3 = `TheKremlinEffect_Paper.out'.
 
-<WU.png, id=38, 2007.5pt x 1039.885pt>
+<WU.png, id=46, 2007.5pt x 1039.885pt>
 File: WU.png Graphic file (type png)
 <use WU.png>
-Package pdftex.def Info: WU.png  used on input line 48.
+Package pdftex.def Info: WU.png  used on input line 54.
 (pdftex.def)             Requested size: 160.60327pt x 83.19249pt.
  [1
 
@@ -548,130 +548,130 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.92 
+l.98 
       [1] [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
-<Map1.pdf, id=134, 316.85176pt x 306.1277pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+<Map1.pdf, id=144, 316.85176pt x 306.1277pt>
 File: Map1.pdf Graphic file (type pdf)
 <use Map1.pdf>
-Package pdftex.def Info: Map1.pdf  used on input line 153.
+Package pdftex.def Info: Map1.pdf  used on input line 159.
 (pdftex.def)             Requested size: 237.63823pt x 229.5952pt.
 [4
 
  <./Map1.pdf>]
-<Plot2.pdf, id=149, 597.23125pt x 420.57124pt>
+<Plot2.pdf, id=159, 597.23125pt x 420.57124pt>
 File: Plot2.pdf Graphic file (type pdf)
 <use Plot2.pdf>
-Package pdftex.def Info: Plot2.pdf  used on input line 163.
+Package pdftex.def Info: Plot2.pdf  used on input line 169.
 (pdftex.def)             Requested size: 215.00308pt x 151.40553pt.
-<Plot3.pdf, id=150, 597.23125pt x 420.57124pt>
+<Plot3.pdf, id=160, 597.23125pt x 420.57124pt>
 File: Plot3.pdf Graphic file (type pdf)
 <use Plot3.pdf>
-Package pdftex.def Info: Plot3.pdf  used on input line 164.
+Package pdftex.def Info: Plot3.pdf  used on input line 170.
 (pdftex.def)             Requested size: 215.00308pt x 151.40553pt.
  [5
 
  <./Plot2.pdf> <./Plot3.pdf>]
-<PosteriorPlot_Distance_Model1.png, id=173, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Distance_Model1.png, id=183, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Distance_Model1.png Graphic file (type png)
 <use PosteriorPlot_Distance_Model1.png>
 Package pdftex.def Info: PosteriorPlot_Distance_Model1.png  used on input line 
-203.
+209.
 (pdftex.def)             Requested size: 164.30092pt x 111.22777pt.
-<PosteriorPlot_VDem_Model1.png, id=174, 657.2053pt x 444.91219pt>
+<PosteriorPlot_VDem_Model1.png, id=184, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_VDem_Model1.png Graphic file (type png)
 <use PosteriorPlot_VDem_Model1.png>
-Package pdftex.def Info: PosteriorPlot_VDem_Model1.png  used on input line 204.
+Package pdftex.def Info: PosteriorPlot_VDem_Model1.png  used on input line 210.
 
 (pdftex.def)             Requested size: 164.30092pt x 111.22777pt.
-<PosteriorPlot_Alliances_Model1.png, id=175, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Alliances_Model1.png, id=185, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Alliances_Model1.png Graphic file (type png)
 <use PosteriorPlot_Alliances_Model1.png>
 Package pdftex.def Info: PosteriorPlot_Alliances_Model1.png  used on input line
- 211.
+ 217.
 (pdftex.def)             Requested size: 131.43872pt x 88.98085pt.
-<PosteriorPlot_Border_Model1.png, id=176, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Border_Model1.png, id=186, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Border_Model1.png Graphic file (type png)
 <use PosteriorPlot_Border_Model1.png>
 Package pdftex.def Info: PosteriorPlot_Border_Model1.png  used on input line 21
-2.
+8.
 (pdftex.def)             Requested size: 131.43872pt x 88.98085pt.
-<PosteriorPlot_Continents_Model1.png, id=177, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Continents_Model1.png, id=187, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Continents_Model1.png Graphic file (type png)
 <use PosteriorPlot_Continents_Model1.png>
 Package pdftex.def Info: PosteriorPlot_Continents_Model1.png  used on input lin
-e 213.
+e 219.
 (pdftex.def)             Requested size: 131.43872pt x 88.98085pt.
 
 
 LaTeX Warning: Hyper reference `Appendix Figures' on page 6 undefined on input 
-line 218.
+line 224.
 
 File: PosteriorPlot_Distance_Model1.png Graphic file (type png)
 <use PosteriorPlot_Distance_Model1.png>
 Package pdftex.def Info: PosteriorPlot_Distance_Model1.png  used on input line 
-223.
+229.
 (pdftex.def)             Requested size: 131.43872pt x 88.98085pt.
-<PosteriorPlot_Distance_Model2.png, id=179, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Distance_Model2.png, id=189, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Distance_Model2.png Graphic file (type png)
 <use PosteriorPlot_Distance_Model2.png>
 Package pdftex.def Info: PosteriorPlot_Distance_Model2.png  used on input line 
-224.
+230.
 (pdftex.def)             Requested size: 131.43872pt x 88.98085pt.
-<PosteriorPlot_Distance_Model3.png, id=180, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Distance_Model3.png, id=190, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Distance_Model3.png Graphic file (type png)
 <use PosteriorPlot_Distance_Model3.png>
 Package pdftex.def Info: PosteriorPlot_Distance_Model3.png  used on input line 
-225.
+231.
 (pdftex.def)             Requested size: 131.43872pt x 88.98085pt.
 [6 <./PosteriorPlot_Distance_Model1.png> <./PosteriorPlot_VDem_Model1.png> <./P
 osteriorPlot_Alliances_Model1.png> <./PosteriorPlot_Border_Model1.png> <./Poste
 riorPlot_Continents_Model1.png> <./PosteriorPlot_Distance_Model2.png> <./Poster
 iorPlot_Distance_Model3.png>]
-<PosteriorPlot_Everything_Model4NoDistnace.png, id=197, 657.2053pt x 444.91219p
+<PosteriorPlot_Everything_Model4NoDistnace.png, id=207, 657.2053pt x 444.91219p
 t>
 File: PosteriorPlot_Everything_Model4NoDistnace.png Graphic file (type png)
 <use PosteriorPlot_Everything_Model4NoDistnace.png>
 Package pdftex.def Info: PosteriorPlot_Everything_Model4NoDistnace.png  used on
- input line 234.
+ input line 240.
 (pdftex.def)             Requested size: 328.60184pt x 222.45554pt.
- [7 <./PosteriorPlot_Everything_Model4NoDistnace.png>] [8
+ [7 <./PosteriorPlot_Everything_Model4NoDistnace.png>] [8] [9
 
 ] (TheKremlinEffect_Paper.bbl) [2
 
 ] [3
 
 ] [4]
-<PosteriorPlot_Alliances_Model2.png, id=235, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Alliances_Model2.png, id=249, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Alliances_Model2.png Graphic file (type png)
 <use PosteriorPlot_Alliances_Model2.png>
 Package pdftex.def Info: PosteriorPlot_Alliances_Model2.png  used on input line
- 363.
+ 376.
 (pdftex.def)             Requested size: 197.1631pt x 133.47467pt.
-<PosteriorPlot_Border_Model2.png, id=236, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Border_Model2.png, id=250, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Border_Model2.png Graphic file (type png)
 <use PosteriorPlot_Border_Model2.png>
-Package pdftex.def Info: PosteriorPlot_Border_Model2.png  used on input line 37
-0.
+Package pdftex.def Info: PosteriorPlot_Border_Model2.png  used on input line 38
+3.
 (pdftex.def)             Requested size: 197.1631pt x 133.47467pt.
-<PosteriorPlot_Continents_Model2.png, id=237, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Continents_Model2.png, id=251, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Continents_Model2.png Graphic file (type png)
 <use PosteriorPlot_Continents_Model2.png>
 Package pdftex.def Info: PosteriorPlot_Continents_Model2.png  used on input lin
-e 377.
+e 390.
 (pdftex.def)             Requested size: 197.1631pt x 133.47467pt.
  [5
 
@@ -685,16 +685,16 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `TheKremlinEffect_Paper.out' has not changed.
 
-(rerunfilecheck)             Checksum: 2C5E13016C83CBDCA1191CA839BE724C;913.
+(rerunfilecheck)             Checksum: C7DF89E1331ABF9F591CCAC16EBD7FE1;1218.
  ) 
 Here is how much of TeX's memory you used:
- 13990 strings out of 476331
- 228868 string characters out of 5788237
+ 13998 strings out of 476331
+ 228987 string characters out of 5788237
  1871660 words of memory out of 5000000
- 34189 multiletter control sequences out of 15000+600000
+ 34194 multiletter control sequences out of 15000+600000
  518230 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,1470b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,1470b,549s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmmi12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -709,9 +709,9 @@ n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
 sers/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.p
 fb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmtt12.pfb>
-Output written on TheKremlinEffect_Paper.pdf (14 pages, 455076 bytes).
+Output written on TheKremlinEffect_Paper.pdf (15 pages, 458339 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 327 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
+ 164 words of extra memory for PDF output out of 10000 (max. 10000000)
 

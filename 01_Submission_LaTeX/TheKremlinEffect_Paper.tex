@@ -34,6 +34,12 @@
 \titlespacing{\section}{0pt}{3ex plus 1ex minus 0.2ex}{10pt}
 \setlength{\headheight}{14.49998pt}
 
+\usepackage{titlesec,xcolor}
+\titleformat{\subsection}{\bfseries}{\thesubsection}{0.5em}{}
+\titlespacing{\subsection}{0pt}{3ex plus 1ex minus 0.2ex}{10pt}
+\setlength{\headheight}{14.49998pt}
+
+
 %------------------------------------------------------------------%
 
 \author{Lucas Paul Unterweger, Sophia Oberbrinkmann, Fynn Lohre}
@@ -226,7 +232,7 @@ In comparison, $M_2$ - the model without the V-dem index -  indicates a similar 
 \caption{Posterior Distributions $M_1$ vs. $M_2$ vs. $M_3$, Distance}
 \end{figure}
 
-Additionally, \hyperref[F:5]{\color{blue}Figure 5} visualizes the effect on distance's posterior distribution when excluding all covariates in $M_3$. To further extend our analysis, we computed the fourth model $M_4$, which excludes the distance and the V-Dem covariates. The estimates of this model can be found in \hyperref[F:6]{\color{blue}Figure 6}. The majority of covariates show similar posterior distributions - e.g. the border covariates or the estimates related to the alliances - however, the missing effect of the excluded covariates is being absorbed by some of the estimates related to the continents. The most prominent example can be found in the distribution for the continent covariate pacific, which now shows a negative effect instead of the original positive one.
+Additionally, \hyperref[F:5]{\color{blue}Figure 5} visualizes the effect on distance's posterior distribution when excluding all covariates in $M_3$. To further extend our analysis, we computed the fourth model $M_4$, which excludes the distance and the V-Dem covariates. The estimates of this model can be found in \hyperref[F:6]{\color{blue}Figure 6}. The majority of covariates show similar posterior distributions - e.g. the border covariates or the estimates related to the alliances - however, the missing effect of the excluded covariates is being absorbed by some of the estimates related to the continents. The most prominent example can be found in the distribution for the continent covariate Pacific, which now shows a negative effect instead of the original positive one.
 
 \begin{figure}[h]
 \center
@@ -241,14 +247,21 @@ Using the Watanabe-Akaike information criterion (WAIC; introduced by \citealp{wa
   \caption{Estimated Model Weights} 
   \label{T:3} 
 \begin{tabular}{llll}
-$M_1$& $M_2$ & $M_3$& $M_4$\\
-0.918 & 0.082 & 0.000 & 0.000 \\
+\hline \hline
+$M_1$& $M_2$ & $M_3$& $M_4$\\ \hline
+0.918 & 0.082 & 0.000 & 0.000 \\ \hline \hline
 \end{tabular}
 \end{table}
  
 
 \section{Discussion}
-Points to touch: 
+\subsection{Implications}
+We fundamentally started with uncertainty across models and the different layers of distance and applied Bayesian updating of the beliefs according to the underlying data. However, given the data, a single-model selection seems after the updating more appropriate as the posterior model probability dominates the other probabilities indicating a non-arbitrariness of the model selection. While we expected a low estimated model weight on $M_3$, as it only includes one covariate, the low probability weight on the model without Distance and V-Dem Index supports our initial hypothesis on distance's influence. 
+
+
+
+
+\subsection{Robustness \& Limitations}
 \begin{enumerate}
 \item Implications  was heißt das nun für den Parameter Distance etc. 
 \item Robustness-checks  Siehe anhang
