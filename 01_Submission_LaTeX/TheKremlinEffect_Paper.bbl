@@ -62,4 +62,10 @@ Odehnal, J. and Neubauer, J. (2020).
 {SIPRI Military Expenditure Database} (2023).
 \newblock \url{https://www.sipri.org/databases/milex}.
 
+\bibitem[Watanabe, 2010]{watanabe2010}
+Watanabe, S. (2010).
+\newblock Asymptotic equivalence of bayes cross validation and widely
+  applicable information criterion in singular learning theory.
+\newblock {\em Journal of machine learning research}, 11(12).
+
 \end{thebibliography}
