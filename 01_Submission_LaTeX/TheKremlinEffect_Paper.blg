@@ -11,24 +11,24 @@ Warning--entry type for "VDEM" isn't style-file defined
 --line 89 of file TheKremlinEffect.bib
 You've used 12 entries,
             1935 wiz_defined-function locations,
-            549 strings with 6324 characters,
-and the built_in function-call counts, 5162 in all, are:
-= -- 478
+            550 strings with 6334 characters,
+and the built_in function-call counts, 5254 in all, are:
+= -- 488
 > -- 300
 < -- 10
 + -- 118
 - -- 108
-* -- 474
-:= -- 939
+* -- 485
+:= -- 949
 add.period$ -- 35
 call.type$ -- 12
 change.case$ -- 113
 chr.to.int$ -- 12
 cite$ -- 12
-duplicate$ -- 158
-empty$ -- 298
+duplicate$ -- 159
+empty$ -- 309
 format.name$ -- 128
-if$ -- 956
+if$ -- 978
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 11
@@ -38,16 +38,16 @@ pop$ -- 88
 preamble$ -- 1
 purify$ -- 114
 quote$ -- 0
-skip$ -- 125
+skip$ -- 124
 stack$ -- 0
-substring$ -- 303
+substring$ -- 330
 swap$ -- 10
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 70
 warning$ -- 0
-while$ -- 36
+while$ -- 37
 width$ -- 0
 write$ -- 154
 (There were 2 warnings)

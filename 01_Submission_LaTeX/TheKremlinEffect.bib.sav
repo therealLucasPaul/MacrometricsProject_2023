@@ -118,8 +118,19 @@
   journal = {Journal of machine learning research},
   title   = {Asymptotic equivalence of Bayes cross validation and widely applicable information criterion in singular learning theory.},
   year    = {2010},
-  number  = {12},
+  number  = {116},
+  pages   = {3571-3594},
   volume  = {11},
+}
+
+@Article{gray2005,
+  author  = {Gray, Colin S},
+  journal = {The US Army War College Quarterly: Parameters},
+  title   = {How has war changed since the end of the Cold War?},
+  year    = {2005},
+  number  = {1},
+  pages   = {7},
+  volume  = {35},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
