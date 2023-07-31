@@ -78,6 +78,11 @@ by\\ \vspace{3mm}
 \end{titlepage}
 \newcounter{savepage}
 \pagenumbering{roman}
+\thispagestyle{empty}
+\begin{abstract}
+\textit{We present a study on how the distance of a country’s capital to Moscow affects its military spending. To tackle the research question, we combine different datasets from various sources, such as the SIPRI Military Expenditure Database, the GeoDist database, and the Electoral Democracy Index. A Bayesian Model Averaging (BMA) approach is used to account for model uncertainty and estimate several models with different distance measures and covariates. Our results identify a in terms of posterior model probability superior model and show that the capital distance to Moscow has a significant negative effect on military expenditures, implying that countries closer to Russia perceive a higher threat and allocate more resources to defense. Additionally, it's observable that continents play a pivotal role in explaining the variation in military expenditures. Specifically a general underestimation of possible threats in Europe is indicated. The effects of border degree and democracy index are mixed and remain to some extend uncertain.} 
+\end{abstract}
+\clearpage
 \thispagestyle{plain}
 \tableofcontents
 \pagebreak
@@ -256,9 +261,15 @@ $M_1$& $M_2$ & $M_3$& $M_4$\\ \hline
 
 \section{Discussion}
 \subsection{Implications}
-We fundamentally started with uncertainty across models and the different layers of distance and applied Bayesian updating of the beliefs according to the underlying data. However, given the data, a single-model selection seems after the updating more appropriate as the posterior model probability dominates the other probabilities indicating a non-arbitrariness of the model selection. While we expected a low estimated model weight on $M_3$, as it only includes one covariate, the low probability weight on the model without Distance and V-Dem Index supports our initial hypothesis on distance's influence. 
-\clearpage
-blocker
+We fundamentally started with uncertainty across models and the different layers of distance and applied Bayesian updating of the beliefs according to the underlying data. However, given the data, a single-model selection seems after the updating more appropriate as the posterior model probability dominates the other probabilities indicating a non-arbitrariness of the model selection. While we expected a low estimated model weight on $M_3$, as it only includes one covariate, the low probability weight on the model without \textit{Distance} and \textit{V-Dem Index} supports our initial hypothesis on the capital distance's influence. \clearpage
+
+The findings in the selected model imply that \textit{ceteris paribus} a capital city 1,000 km more distant from Moscow leads on average to a decrease of \textit{Military Expenditure in \% of GDP} by 0.2 percentage points. This effect can be seen as both statistically and economically significant, as the posterior distribution has no probability weight on zero and 0.2 percentage points represent military expenditures of a high million or low billion USD value, depending on the respective GDP. However, given the std. dev. of the military expenditure variable with 1.32, the explained variance of distance to Moscow only amounts for a fairly small share. Thus, it seems that the perceived threat of Russia is one of many determinant explaining variation in military expenditures. Still, our finding align with the findings in \citet{nordhaus2012}, as a higher perceived threat can be seen as proxy for a higher probability of war, and highlight the importance of regional distance to perceived threats as an explanation of military expenditures. 
+
+Additionally, our findings strongly reinforce the pertinent contribution of continents in explaining the variance of military expenditures. No matter in which model, the posterior distribution of Asia reveals a significant positive effect capturing the increasing tensions in Asia involving China. However, it is also visible in every posterior distribution that Europe's military expenditure are below average. Including the effect of distance to Russia shifts the probability mass further into the negative and increases the certainty of the estimate, indicating a collective underestimation of the threat emanating from Russia.\footnote{For our robustness-checks we looked at different time stamps after 2000, and could interestingly see this effect increasing, even after the annexation of Crimea - see e.g. 2005 vs. 2015 in \hyperref[Appendix Tables]{\color{blue}Appendix A}.}
+
+
+While we see strong evidence for the hypothesis of the physical distance layer of distance, the results for the degree of border and sociological distance in form of the V-Dem index are mixed. One the one hand, the inclusions raises the prediction quality as 
+
 \clearpage
 \subsection{Robustness \& Limitations}
 \begin{enumerate}
@@ -301,16 +312,16 @@ In conclusion, our research underscores the importance of physical geography and
 \textit{Military Expenditure in \% of GDP} & Estimate & Est.Error & Q2.5 & Q97.5 \\ 
 \hline \\[-1.8ex] 
 Intercept & $3.083$ & $0.372$ & $2.352$ & $3.805$ \\ 
-dist & $-0.0002$ & $0.0001$ & $-0.0003$ & $-0.0001$ \\ 
+Distance & $-0.0002$ & $0.0001$ & $-0.0003$ & $-0.0001$ \\ 
 Nato & $0.361$ & $0.339$ & $-0.315$ & $1.038$ \\ 
 BRICS & $-0.285$ & $0.511$ & $-1.237$ & $0.673$ \\ 
 OKVS & $-0.759$ & $0.501$ & $-1.723$ & $0.262$ \\ 
-continentAmerica & $0.436$ & $0.345$ & $-0.226$ & $1.084$ \\ 
-continentAsia & $1.013$ & $0.276$ & $0.467$ & $1.605$ \\ 
-continentEurope & $-1.158$ & $0.376$ & $-1.921$ & $-0.416$ \\ 
-continentPacific & $1.089$ & $0.570$ & $-0.013$ & $2.140$ \\ 
-DirectBorder & $-0.366$ & $0.323$ & $-0.966$ & $0.263$ \\ 
-SecondaryBorder & $-0.519$ & $0.297$ & $-1.101$ & $0.048$ \\ 
+America & $0.436$ & $0.345$ & $-0.226$ & $1.084$ \\ 
+Asia & $1.013$ & $0.276$ & $0.467$ & $1.605$ \\ 
+Europe & $-1.158$ & $0.376$ & $-1.921$ & $-0.416$ \\ 
+Pacific & $1.089$ & $0.570$ & $-0.013$ & $2.140$ \\ 
+Direct Border & $-0.366$ & $0.323$ & $-0.966$ & $0.263$ \\ 
+Secondary Border & $-0.519$ & $0.297$ & $-1.101$ & $0.048$ \\ 
 \hline \hline \\[-1.8ex] 
 \end{tabular} 
 \end{table} 
@@ -327,17 +338,17 @@ SecondaryBorder & $-0.519$ & $0.297$ & $-1.101$ & $0.048$ \\
  \textit{Military Expenditure in \% of GDP}& Estimate & Est.Error & Q2.5 & Q97.5 \\ 
 \hline \\[-1.8ex] 
 Intercept & $3.099$ & $0.377$ & $2.363$ & $3.831$ \\ 
-dist & $-0.0002$ & $0.0001$ & $$-$0.0003$ & $$-$0.0001$ \\ 
+Distance & $-0.0002$ & $0.0001$ & $$-$0.0003$ & $$-$0.0001$ \\ 
 Nato & $0.474$ & $0.344$ & $$-$0.210$ & $1.144$ \\ 
 BRICS & $0.046$ & $0.524$ & $$-$1.044$ & $1.018$ \\ 
 OKVS & $$-$0.685$ & $0.510$ & $$-$1.741$ & $0.274$ \\ 
-continentAmerica & $0.586$ & $0.370$ & $$-$0.123$ & $1.333$ \\ 
-continentAsia & $1.057$ & $0.253$ & $0.583$ & $1.560$ \\ 
-continentEurope & $$-$0.694$ & $0.419$ & $$-$1.510$ & $0.133$ \\ 
-continentPacific & $0.914$ & $0.557$ & $$-$0.183$ & $2.008$ \\ 
-DirectBorder & $$-$0.534$ & $0.314$ & $$-$1.142$ & $0.078$ \\ 
-SecondaryBorder & $$-$0.503$ & $0.287$ & $$-$1.038$ & $0.087$ \\ 
-electdem\_vdem\_owid & $$-$0.756$ & $0.445$ & $$-$1.627$ & $0.104$ \\ 
+America & $0.586$ & $0.370$ & $$-$0.123$ & $1.333$ \\ 
+Asia & $1.057$ & $0.253$ & $0.583$ & $1.560$ \\ 
+Europe & $$-$0.694$ & $0.419$ & $$-$1.510$ & $0.133$ \\ 
+Pacific & $0.914$ & $0.557$ & $$-$0.183$ & $2.008$ \\ 
+Direct Border & $$-$0.534$ & $0.314$ & $$-$1.142$ & $0.078$ \\ 
+Secondary Border & $$-$0.503$ & $0.287$ & $$-$1.038$ & $0.087$ \\ 
+V-Dem Index & $$-$0.756$ & $0.445$ & $$-$1.627$ & $0.104$ \\ 
 \hline \hline \\[-1.8ex] 
 \end{tabular} 
 \end{table} 
@@ -351,18 +362,18 @@ electdem\_vdem\_owid & $$-$0.756$ & $0.445$ & $$-$1.627$ & $0.104$ \\
  \textit{Military Expenditure in \% of GDP}& Estimate & Est.Error & Q2.5 & Q97.5 \\ 
 \hline \\[-1.8ex] 
 Intercept & $3.460$ & $0.477$ & $2.523$ & $4.401$ \\ 
-dist & $$-$0.0002$ & $0.0001$ & $$-$0.0003$ & $$-$0.0001$ \\ 
+Distance & $$-$0.0002$ & $0.0001$ & $$-$0.0003$ & $$-$0.0001$ \\ 
 Nato & $0.220$ & $0.417$ & $$-$0.561$ & $1.008$ \\ 
 BRICS & $$-$0.218$ & $0.576$ & $$-$1.412$ & $0.913$ \\ 
 OKVS & $$-$0.539$ & $0.599$ & $$-$1.680$ & $0.618$ \\ 
-continentAmerica & $0.704$ & $0.402$ & $$-$0.058$ & $1.515$ \\ 
-continentAsia & $1.408$ & $0.339$ & $0.746$ & $2.079$ \\ 
-continentEurope & $$-$0.917$ & $0.462$ & $$-$1.811$ & $0.021$ \\ 
-continentPacific & $1.016$ & $0.669$ & $$-$0.267$ & $2.316$ \\ 
-DirectBorder & $-0.307$ & $0.382$ & $-1.022$ & $0.438$ \\ 
-SecondaryBorder & $-0.768$ & $0.350$ & $$-$1.501$ & $$-$0.085$ \\ 
-electdem\_vdem\_owid & $-0.983$ & $0.530$ & $$-$2.004$ & $0.097$ \\ 
-\hline \\[-1.8ex] 
+America & $0.704$ & $0.402$ & $$-$0.058$ & $1.515$ \\ 
+Asia & $1.408$ & $0.339$ & $0.746$ & $2.079$ \\ 
+Europe & $$-$0.917$ & $0.462$ & $$-$1.811$ & $0.021$ \\ 
+Pacific & $1.016$ & $0.669$ & $$-$0.267$ & $2.316$ \\ 
+Direct Border & $-0.307$ & $0.382$ & $-1.022$ & $0.438$ \\ 
+Secondary Border & $-0.768$ & $0.350$ & $$-$1.501$ & $$-$0.085$ \\ 
+V-Dem Index & $-0.983$ & $0.530$ & $$-$2.004$ & $0.097$ \\ 
+\hline \hline \\[-1.8ex] 
 \end{tabular} 
 \end{table} 
 \vfill
