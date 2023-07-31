@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  31 JUL 2023 17:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  31 JUL 2023 17:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -686,7 +686,7 @@ Here is how much of TeX's memory you used:
  34209 multiletter control sequences out of 15000+600000
  519184 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,1473b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,1470b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmbx12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -703,7 +703,7 @@ fb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmti10.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmti12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmtt12.pfb>
-Output written on TheKremlinEffect_Paper.pdf (17 pages, 586858 bytes).
+Output written on TheKremlinEffect_Paper.pdf (17 pages, 587029 bytes).
 PDF statistics:
  361 PDF objects out of 1000 (max. 8388607)
  60 named destinations out of 1000 (max. 500000)
