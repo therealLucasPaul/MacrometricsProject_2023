@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  31 JUL 2023 11:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.7.24)  31 JUL 2023 11:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -637,31 +637,29 @@ Package pdftex.def Info: PosteriorPlot_Everything_Model4NoDistnace.png  used on
 
 ] [9
 
-] [10
-
 ]
 (TheKremlinEffect_Paper.bbl) [3
 
 ] [4
 
 ] [5]
-<PosteriorPlot_Alliances_Model2.png, id=266, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Alliances_Model2.png, id=263, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Alliances_Model2.png Graphic file (type png)
 <use PosteriorPlot_Alliances_Model2.png>
 Package pdftex.def Info: PosteriorPlot_Alliances_Model2.png  used on input line
- 384.
+ 383.
 (pdftex.def)             Requested size: 197.1631pt x 133.47467pt.
-<PosteriorPlot_Border_Model2.png, id=267, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Border_Model2.png, id=264, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Border_Model2.png Graphic file (type png)
 <use PosteriorPlot_Border_Model2.png>
 Package pdftex.def Info: PosteriorPlot_Border_Model2.png  used on input line 39
-1.
+0.
 (pdftex.def)             Requested size: 197.1631pt x 133.47467pt.
-<PosteriorPlot_Continents_Model2.png, id=268, 657.2053pt x 444.91219pt>
+<PosteriorPlot_Continents_Model2.png, id=265, 657.2053pt x 444.91219pt>
 File: PosteriorPlot_Continents_Model2.png Graphic file (type png)
 <use PosteriorPlot_Continents_Model2.png>
 Package pdftex.def Info: PosteriorPlot_Continents_Model2.png  used on input lin
-e 398.
+e 397.
 (pdftex.def)             Requested size: 197.1631pt x 133.47467pt.
  [6
 
@@ -672,8 +670,8 @@ Package rerunfilecheck Info: File `TheKremlinEffect_Paper.out' has not changed.
 (rerunfilecheck)             Checksum: C7DF89E1331ABF9F591CCAC16EBD7FE1;1218.
  ) 
 Here is how much of TeX's memory you used:
- 14012 strings out of 476331
- 229123 string characters out of 5788237
+ 14011 strings out of 476331
+ 229116 string characters out of 5788237
  1871660 words of memory out of 5000000
  34200 multiletter control sequences out of 15000+600000
  519184 words of font info for 56 fonts, out of 8000000 for 9000
@@ -695,9 +693,9 @@ fb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmti10.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmti12.pfb><C:/Users/Fynn/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmtt12.pfb>
-Output written on TheKremlinEffect_Paper.pdf (17 pages, 497545 bytes).
+Output written on TheKremlinEffect_Paper.pdf (16 pages, 497260 bytes).
 PDF statistics:
- 353 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
+ 349 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
  164 words of extra memory for PDF output out of 10000 (max. 10000000)
 
