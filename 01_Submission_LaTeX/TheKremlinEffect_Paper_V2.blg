@@ -9,45 +9,47 @@ Warning--entry type for "SIRPI" isn't style-file defined
 --line 68 of file TheKremlinEffect.bib
 Warning--entry type for "VDEM" isn't style-file defined
 --line 89 of file TheKremlinEffect.bib
-You've used 21 entries,
+Warning--entry type for "World" isn't style-file defined
+--line 264 of file TheKremlinEffect.bib
+You've used 22 entries,
             1935 wiz_defined-function locations,
-            607 strings with 7817 characters,
-and the built_in function-call counts, 8919 in all, are:
-= -- 865
-> -- 431
-< -- 16
-+ -- 161
-- -- 150
-* -- 822
-:= -- 1577
-add.period$ -- 62
-call.type$ -- 21
-change.case$ -- 179
-chr.to.int$ -- 20
-cite$ -- 21
-duplicate$ -- 285
-empty$ -- 573
-format.name$ -- 189
-if$ -- 1683
+            611 strings with 7926 characters,
+and the built_in function-call counts, 9154 in all, are:
+= -- 889
+> -- 438
+< -- 17
++ -- 163
+- -- 152
+* -- 837
+:= -- 1624
+add.period$ -- 64
+call.type$ -- 22
+change.case$ -- 184
+chr.to.int$ -- 21
+cite$ -- 22
+duplicate$ -- 295
+empty$ -- 588
+format.name$ -- 192
+if$ -- 1726
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 19
-newline$ -- 107
-num.names$ -- 63
-pop$ -- 127
+newline$ -- 111
+num.names$ -- 66
+pop$ -- 133
 preamble$ -- 1
-purify$ -- 180
+purify$ -- 186
 quote$ -- 0
-skip$ -- 220
+skip$ -- 227
 stack$ -- 0
-substring$ -- 655
+substring$ -- 667
 swap$ -- 19
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 126
+type$ -- 132
 warning$ -- 0
-while$ -- 75
+while$ -- 77
 width$ -- 0
-write$ -- 270
-(There were 2 warnings)
+write$ -- 280
+(There were 3 warnings)

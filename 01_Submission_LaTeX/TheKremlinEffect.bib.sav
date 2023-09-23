@@ -250,4 +250,20 @@
   volume  = {5},
 }
 
+@Article{buch2005,
+  author    = {Buch, Claudia M},
+  journal   = {Review of International Economics},
+  title     = {Distance and international banking},
+  year      = {2005},
+  number    = {4},
+  pages     = {787--804},
+  volume    = {13},
+  publisher = {Wiley Online Library},
+}
+
+@Electronic{World,
+  author       = {{World Population Review}},
+  howpublished = {\url{ttps://worldpopulationreview.com/country-rankings/neutral-countries}},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
