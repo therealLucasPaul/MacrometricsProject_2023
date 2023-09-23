@@ -1,16 +1,66 @@
 \begin{thebibliography}{}
 
+\bibitem[Albalate et~al., 2012]{albalate2012}
+Albalate, D., Bel, G., and Elias, F. (2012).
+\newblock Institutional determinants of military spending.
+\newblock {\em Journal of comparative economics}, 40(2):279--290.
+
+\bibitem[Amini and Parmeter, 2012]{amini2012}
+Amini, S.~M. and Parmeter, C.~F. (2012).
+\newblock Comparison of model averaging techniques: Assessing growth
+  determinants.
+\newblock {\em Journal of Applied Econometrics}, 27(5):870--876.
+
+\bibitem[Brown et~al., 2002]{brown2002}
+Brown, P.~J., Vannucci, M., and Fearn, T. (2002).
+\newblock Bayes model averaging with selection of regressors.
+\newblock {\em Journal of the Royal Statistical Society Series B: Statistical
+  Methodology}, 64(3):519--536.
+
+\bibitem[Clyde and George, 2004]{clyde2004}
+Clyde, M. and George, E.~I. (2004).
+\newblock Model uncertainty.
+\newblock {\em Statistical Science}, 19(1):81--94.
+
+\bibitem[Dunne and Perlo-Freeman, 2003a]{dunne2003a}
+Dunne, J.~P. and Perlo-Freeman, S. (2003a).
+\newblock The demand for military spending in developing countries: A dynamic
+  panel analysis.
+\newblock {\em Defence and Peace Economics}, 14(6):461--474.
+
+\bibitem[Dunne and Perlo-Freeman, 2003b]{dunne2003b}
+Dunne, P. and Perlo-Freeman, S. (2003b).
+\newblock The demand for military spending in developing countries.
+\newblock {\em International Review of Applied Economics}, 17(1):23--48.
+
 \bibitem[George and Sandler, 2018]{george2018}
 George, J. and Sandler, T. (2018).
 \newblock Demand for military spending in nato, 1968–2015: A spatial panel
   approach.
 \newblock {\em European Journal of Political Economy}, 53:222--236.
 
+\bibitem[Hoeting et~al., 1999]{hoeting1999}
+Hoeting, J.~A., Madigan, D., Raftery, A.~E., and Volinsky, C.~T. (1999).
+\newblock Bayesian model averaging: a tutorial (with comments by m. clyde,
+  david draper and ei george, and a rejoinder by the authors.
+\newblock {\em Statistical science}, 14(4):382--417.
+
 \bibitem[Kofro{\v{n}} and Stauber, 2023]{kofrovn2023}
 Kofro{\v{n}}, J. and Stauber, J. (2023).
 \newblock The impact of the russo-ukrainian conflict on military expenditures
   of european states: security alliances or geography?
 \newblock {\em Journal of Contemporary European Studies}, 31(1):151--168.
+
+\bibitem[Lin and Wang, 2019]{lin2019}
+Lin, F.-L. and Wang, M.-C. (2019).
+\newblock Does economic growth cause military expenditure to go up? using
+  mf-var model.
+\newblock {\em Quality \& Quantity}, 53:3097--3117.
+
+\bibitem[Moral-Benito, 2015]{moral2015}
+Moral-Benito, E. (2015).
+\newblock Model averaging in economics: An overview.
+\newblock {\em Journal of Economic Surveys}, 29(1):46--75.
 
 \bibitem[Nikolaidou, 2008]{nikolaidou2008}
 Nikolaidou, E. (2008).
@@ -29,5 +79,16 @@ Odehnal, J. and Neubauer, J. (2020).
 \newblock Economic, security, and political determinants of military spending
   in nato countries.
 \newblock {\em Defence and Peace Economics}, 31(5):517--531.
+
+\bibitem[Starkweather, 2011]{starkweather2011}
+Starkweather, J. (2011).
+\newblock Sharpening occam’s razor: Using bayesian model averaging in r to
+  separate the wheat from the chaff.
+\newblock {\em Benchmarks RSS Matters. Retrieved online}, 5:13.
+
+\bibitem[Steel, 2020]{steel2020}
+Steel, M.~F. (2020).
+\newblock Model averaging and its use in economics.
+\newblock {\em Journal of Economic Literature}, 58(3):644--719.
 
 \end{thebibliography}
