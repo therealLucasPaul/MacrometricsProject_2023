@@ -5,44 +5,49 @@ Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: apalike.bst
 Reallocating 'name_of_file' (item size: 1) to 21 items.
 Database file #1: TheKremlinEffect.bib
-You've used 16 entries,
+Warning--entry type for "SIRPI" isn't style-file defined
+--line 68 of file TheKremlinEffect.bib
+Warning--entry type for "VDEM" isn't style-file defined
+--line 89 of file TheKremlinEffect.bib
+You've used 21 entries,
             1935 wiz_defined-function locations,
-            582 strings with 6527 characters,
-and the built_in function-call counts, 6349 in all, are:
-= -- 646
-> -- 209
-< -- 12
-+ -- 77
-- -- 66
-* -- 568
-:= -- 1090
-add.period$ -- 48
-call.type$ -- 16
-change.case$ -- 113
-chr.to.int$ -- 15
-cite$ -- 16
-duplicate$ -- 224
-empty$ -- 469
-format.name$ -- 98
-if$ -- 1227
+            607 strings with 7817 characters,
+and the built_in function-call counts, 8919 in all, are:
+= -- 865
+> -- 431
+< -- 16
++ -- 161
+- -- 150
+* -- 822
+:= -- 1577
+add.period$ -- 62
+call.type$ -- 21
+change.case$ -- 179
+chr.to.int$ -- 20
+cite$ -- 21
+duplicate$ -- 285
+empty$ -- 573
+format.name$ -- 189
+if$ -- 1683
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 16
-newline$ -- 83
-num.names$ -- 48
-pop$ -- 69
+missing$ -- 19
+newline$ -- 107
+num.names$ -- 63
+pop$ -- 127
 preamble$ -- 1
-purify$ -- 113
+purify$ -- 180
 quote$ -- 0
-skip$ -- 172
+skip$ -- 220
 stack$ -- 0
-substring$ -- 567
-swap$ -- 16
+substring$ -- 655
+swap$ -- 19
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 96
+type$ -- 126
 warning$ -- 0
-while$ -- 62
+while$ -- 75
 width$ -- 0
-write$ -- 210
+write$ -- 270
+(There were 2 warnings)

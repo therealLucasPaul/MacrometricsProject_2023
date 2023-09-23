@@ -17,10 +17,27 @@ Brown, P.~J., Vannucci, M., and Fearn, T. (2002).
 \newblock {\em Journal of the Royal Statistical Society Series B: Statistical
   Methodology}, 64(3):519--536.
 
+\bibitem[Buch, 2005]{buch2005}
+Buch, C.~M. (2005).
+\newblock Distance and international banking.
+\newblock {\em Review of International Economics}, 13(4):787--804.
+
 \bibitem[Clyde and George, 2004]{clyde2004}
 Clyde, M. and George, E.~I. (2004).
 \newblock Model uncertainty.
 \newblock {\em Statistical Science}, 19(1):81--94.
+
+\bibitem[Coppedge et~al., 2023]{VDEM}
+Coppedge, M., Gerring, J., Knutsen, C.~H., Lindberg, S.~I., Teorell, J.,
+  Altman, D., Bernhard, M., Cornell, A., Fish, M.~S., Gastaldi, L., Gjerloew,
+  H., Glynn, A., God, A.~G., Grahn, S., Hicken, A., Kinzelbach, K., Krusell,
+  J., Marquardt, K.~L., McMann, K., Mechkova, V., Medzihorsky, J., Natsika, N.,
+  Neundorf, A., Paxton, P., amd Josefine~Pernes, D.~P., Ryden, O., von Roemer,
+  J., Seim, B., Sigman, R., Skaaning, S.-E., Staton, J., Sundstroem, A.,
+  Tzelgov, E., ting Wang, Y., Wig, T., Wilson, S., and Ziblatt, D. (2023).
+\newblock ''v-dem [country-year/country-date] dataset v13'' varieties of
+  democracy (v-dem) project.
+\newblock \url{https://doi.org/10.23696/vdemds23}.
 
 \bibitem[Dunne and Perlo-Freeman, 2003a]{dunne2003a}
 Dunne, J.~P. and Perlo-Freeman, S. (2003a).
@@ -39,6 +56,11 @@ George, J. and Sandler, T. (2018).
   approach.
 \newblock {\em European Journal of Political Economy}, 53:222--236.
 
+\bibitem[Gray, 2005]{gray2005}
+Gray, C.~S. (2005).
+\newblock How has war changed since the end of the cold war?
+\newblock {\em The US Army War College Quarterly: Parameters}, 35(1):7.
+
 \bibitem[Hoeting et~al., 1999]{hoeting1999}
 Hoeting, J.~A., Madigan, D., Raftery, A.~E., and Volinsky, C.~T. (1999).
 \newblock Bayesian model averaging: a tutorial (with comments by m. clyde,
@@ -56,6 +78,11 @@ Lin, F.-L. and Wang, M.-C. (2019).
 \newblock Does economic growth cause military expenditure to go up? using
   mf-var model.
 \newblock {\em Quality \& Quantity}, 53:3097--3117.
+
+\bibitem[Mayer and Zignago, 2011]{mayer2011}
+Mayer, T. and Zignago, S. (2011).
+\newblock Notes on cepii’s distances measures: The geodist database.
+\newblock {\em CEPII working paper}.
 
 \bibitem[Moral-Benito, 2015]{moral2015}
 Moral-Benito, E. (2015).
@@ -79,6 +106,10 @@ Odehnal, J. and Neubauer, J. (2020).
 \newblock Economic, security, and political determinants of military spending
   in nato countries.
 \newblock {\em Defence and Peace Economics}, 31(5):517--531.
+
+\bibitem[{SIPRI Military Expenditure Database}, 2023]{SIRPI}
+{SIPRI Military Expenditure Database} (2023).
+\newblock \url{https://www.sipri.org/databases/milex}.
 
 \bibitem[Starkweather, 2011]{starkweather2011}
 Starkweather, J. (2011).
