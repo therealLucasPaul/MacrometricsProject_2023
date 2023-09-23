@@ -7,7 +7,7 @@
 \contentsline {subsection}{\numberline {4.2}NATO members}{7}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}EU members}{7}{subsection.4.3}%
 \contentsline {section}{\numberline {5}Discussion}{8}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Implication}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.1}Implications}{8}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Limitations}{9}{subsection.5.2}%
 \contentsline {section}{\numberline {6}Conclusion}{10}{section.6}%
 \contentsline {section}{References}{iii}{section.6}%
